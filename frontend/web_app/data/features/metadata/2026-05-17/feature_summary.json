@@ -1,0 +1,43 @@
+{
+  "total_documents": 42,
+  "total_chunks": 416,
+  "chunks_by_document_type": {
+    "lecturer_profile": 218,
+    "program": 85,
+    "leadership": 1,
+    "general_info": 28,
+    "quality_assurance": 36,
+    "organization": 1,
+    "department": 28,
+    "announcement": 4,
+    "unknown": 1,
+    "curriculum": 14
+  },
+  "top_keywords": {
+    "chuong trinh dao tao": 88,
+    "can bo": 68,
+    "tien si": 64,
+    "thac si": 57,
+    "thong bao": 51,
+    "tuyen sinh": 43,
+    "hoc phi": 28,
+    "giang vien": 26,
+    "hoc bong": 22,
+    "quy che": 16,
+    "hieu truong": 11,
+    "khoa hoc du lieu": 8,
+    "lanh dao": 7,
+    "khoa hoc may tinh": 6,
+    "toan tin": 3
+  },
+  "top_domains": {
+    "hus.vnu.edu.vn": 330,
+    "tuyensinh.hus.vnu.edu.vn": 86
+  },
+  "average_chunk_length": 678.64,
+  "average_content_quality_score": 0.7271,
+  "average_boilerplate_score": 0.1132,
+  "empty_or_skipped_count": 1,
+  "skipped_duplicate_exact_sources": 0,
+  "input_documents": 42
+}

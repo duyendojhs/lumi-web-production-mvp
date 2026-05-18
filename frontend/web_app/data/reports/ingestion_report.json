@@ -1,0 +1,2538 @@
+{
+  "created_at": "2026-05-18T09:51:54.241806+00:00",
+  "raw_path": "D:\\DM\\lumi\\data\\raw",
+  "total_files": 146,
+  "total_size_bytes": 234650671,
+  "extension_distribution": {
+    ".csv": 1,
+    ".html": 30,
+    ".json": 4,
+    ".md": 1,
+    ".pdf": 82,
+    ".txt": 26,
+    ".xlsx": 1,
+    ".zip": 1
+  },
+  "file_type_distribution": {
+    "archive": 1,
+    "csv": 1,
+    "html": 30,
+    "json": 4,
+    "md": 1,
+    "pdf": 82,
+    "txt": 26,
+    "xlsx": 1
+  },
+  "size_by_file_type_bytes": {
+    "archive": 109063361,
+    "csv": 50029,
+    "html": 2460332,
+    "json": 210669,
+    "md": 2984,
+    "pdf": 122565143,
+    "txt": 280506,
+    "xlsx": 17647
+  },
+  "empty_files": [],
+  "duplicate_groups": [],
+  "issue_counts": {
+    "large_file": 1,
+    "html_short_body": 2,
+    "possible_mojibake": 3,
+    "pdf_sample_needs_ocr": 54,
+    "pdf_text_truncated": 1
+  },
+  "files": [
+    {
+      "relative_path": "README_DATA_RAW.md",
+      "file_name": "README_DATA_RAW.md",
+      "extension": ".md",
+      "file_type": "md",
+      "file_size_bytes": 2984,
+      "checksum_sha256": "b0415e003f13112335de0c6dcbdc9575449c0d62f6a82a18a5b95ec029737752",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 2984
+      }
+    },
+    {
+      "relative_path": "csv/data_raw_manifest.csv",
+      "file_name": "data_raw_manifest.csv",
+      "extension": ".csv",
+      "file_type": "csv",
+      "file_size_bytes": 50029,
+      "checksum_sha256": "fe7b2f18b93a389e88e26d107b347095b860563be991f0f71440abd85ab4eaa0",
+      "issues": [],
+      "probe": {
+        "row_count_sample": 137,
+        "table_profile": {
+          "row_count": 137,
+          "column_count": 12,
+          "columns": [
+            {
+              "name": "language",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_name",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_url",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "access_note",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "relative_path",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "id",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "category",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_size_bytes",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "number"
+            },
+            {
+              "name": "description",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_domain",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "is_public",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_type",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            }
+          ],
+          "duplicate_rows": 0,
+          "outliers": {}
+        }
+      }
+    },
+    {
+      "relative_path": "data_raw.zip",
+      "file_name": "data_raw.zip",
+      "extension": ".zip",
+      "file_type": "archive",
+      "file_size_bytes": 109063361,
+      "checksum_sha256": "6c8aa9d0ffa0e5316d772859b4a308ff24555557f891587326089ba43f36ac10",
+      "issues": [
+        "large_file"
+      ],
+      "probe": {
+        "archive_members": 160
+      }
+    },
+    {
+      "relative_path": "excel/data_raw_manifest.xlsx",
+      "file_name": "data_raw_manifest.xlsx",
+      "extension": ".xlsx",
+      "file_type": "xlsx",
+      "file_size_bytes": 17647,
+      "checksum_sha256": "b9c9e71f18f477df648a09d71077f30b3e37210b4ee3e0def0f34d24cc342759",
+      "issues": [],
+      "probe": {
+        "row_count_sample": 137,
+        "table_profile": {
+          "row_count": 137,
+          "column_count": 12,
+          "columns": [
+            {
+              "name": "language",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_name",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_url",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "access_note",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "relative_path",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "id",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "category",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_size_bytes",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "number"
+            },
+            {
+              "name": "description",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_domain",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "is_public",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "number"
+            },
+            {
+              "name": "file_type",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            }
+          ],
+          "duplicate_rows": 0,
+          "outliers": {}
+        }
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__dia-chat.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__dia-chat.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 49308,
+      "checksum_sha256": "eb68c4e1427862f27aae1b3e8ce251fc016b6a8cf4efaf93890e8e73741e9b36",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Quản lý, Công nghệ Tài nguyên môi trường và Địa chất",
+        "sample_text_length": 739
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__dia-ly.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__dia-ly.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 49609,
+      "checksum_sha256": "6cba89be8bc40a3b41bb4a5e3ff1a426d4402f354f85e2437c3d6b581c91befe",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Địa lý, Quản lý đất đai và GISc",
+        "sample_text_length": 766
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__hoa-hoc.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__hoa-hoc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 50585,
+      "checksum_sha256": "8e91bcabe362dc8bebd61297e2a90d82ae335ab436d4bda6e6f3799d3a39722e",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Hóa học và Công nghệ",
+        "sample_text_length": 939
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__khi-tuong-thuy-van-hai-duong-hoc.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__khi-tuong-thuy-van-hai-duong-hoc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 49882,
+      "checksum_sha256": "546c6ec7200865d4528a1d6695af4c6a538abd490ebc8707b11275d3dedced92",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Khí tượng, Khoa học và Công nghệ biển, Tài nguyên và Môi trường nước",
+        "sample_text_length": 825
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__moi-truong.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__moi-truong.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 49659,
+      "checksum_sha256": "c0709e205ec57d584f8e43a416a0ba04ec50eea5cd18c98da3152e5ba249b375",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Khoa học, Công nghệ Môi trường và Thực phẩm",
+        "sample_text_length": 786
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__sinh-hoc.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__sinh-hoc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 49788,
+      "checksum_sha256": "1706f44a04e1aea324aba15dace411c8225be2722f15f0abb0ddd7d008a2569b",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Sinh học và Công nghệ",
+        "sample_text_length": 774
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__toan-co-tin-hoc.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__toan-co-tin-hoc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 51285,
+      "checksum_sha256": "2292b476401c13e076e2498aa68ec9d45ac0457ee12913755e88e377b4331661",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Toán, Toán ứng dụng và Tin học",
+        "sample_text_length": 1162
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__bac-dai-hoc__vat-ly.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__bac-dai-hoc__vat-ly.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 213003,
+      "checksum_sha256": "45962f74b45cb103bfc0eae3eba6a0bebca22ac512dbacbd3152ba222a67120f",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Bậc đại học",
+        "sample_text_length": 38513
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__dai-hoc.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__dai-hoc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 52621,
+      "checksum_sha256": "d4b735f5f739be8b0628152a5cce5f1d1d3d755fbc5e52e67cb8d87817564733",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Đào tạo",
+        "sample_text_length": 944
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__gioi-thieu-chung.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__gioi-thieu-chung.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 69105,
+      "checksum_sha256": "38b9ee6a8f3ffe929401ff338fefef3a38133fb98a1960c64319ee0ee3b5f3e1",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Giới thiệu chung",
+        "sample_text_length": 4144
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__olympicvnu-2025.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__olympicvnu-2025.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 34740,
+      "checksum_sha256": "203091e97bf10b08c86a1da9d05d6d95fcc61c83987c01f089e6ed11d37b56c3",
+      "issues": [
+        "html_short_body"
+      ],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "olympicvnu-2025",
+        "sample_text_length": 27
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__sau-dai-hoc.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__sau-dai-hoc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 43537,
+      "checksum_sha256": "beca1d95b33133bb6ba0d322f93852dc9dba42de47b055f5e01a7b9bb4316ff6",
+      "issues": [
+        "html_short_body"
+      ],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Sau đại học",
+        "sample_text_length": 176
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__sau-dai-hoc__hoa-hoc-va-cong-nghe.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__sau-dai-hoc__hoa-hoc-va-cong-nghe.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 39718,
+      "checksum_sha256": "7c4fbe706696ea1e2de55c5e0436c8607aaa777e73c63f21ceadc1298f97cb55",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Hóa học & Công nghệ",
+        "sample_text_length": 693
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__sau-dai-hoc__khoa-hoc-trai-dat-va-tai-nguyen-moi-truong.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__sau-dai-hoc__khoa-hoc-trai-dat-va-tai-nguyen-moi-truong.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 41521,
+      "checksum_sha256": "18a46e752ddcd87955e12f21cdec0a83d662c6ae1bbd6d911182ca800487524c",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Khoa học Trái đất - Tài nguyên & Môi trường",
+        "sample_text_length": 1281
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__sau-dai-hoc__sinh-hoc-va-cong-nghe.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__sau-dai-hoc__sinh-hoc-va-cong-nghe.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 40858,
+      "checksum_sha256": "792bf04d0bde5e59d42ca8df3417dbdcc288397255bfee18a0e13c2d5e780771",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Sinh học & Công nghệ",
+        "sample_text_length": 921
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__dao-tao__sau-dai-hoc__vat-ly-va-cong-nghe.html",
+      "file_name": "hus.vnu.edu.vn__dao-tao__sau-dai-hoc__vat-ly-va-cong-nghe.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 39429,
+      "checksum_sha256": "44ff5991351285a05e36e84b4d0ae789a7f37462c643f37c9ed0009898bae133",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Vật lý & Công nghệ",
+        "sample_text_length": 669
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__cac-khuon-vien.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__cac-khuon-vien.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 92186,
+      "checksum_sha256": "c294b00de7ad0388e6e235aae2d3d8371e4a4e0afa1d140a5c19f36116aba982",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Giới thiệu",
+        "sample_text_length": 2816
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__can-bo__hoi-dong-khoa-hoc-dao-tao.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__can-bo__hoi-dong-khoa-hoc-dao-tao.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 75411,
+      "checksum_sha256": "53d011f060b928192b10e155ece6a4de62b4b094e1f5d53ac9edb793ef6062e8",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Hội đồng Khoa học Đào tạo",
+        "sample_text_length": 4132
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__chien-luoc-phat-trien.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__chien-luoc-phat-trien.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 225460,
+      "checksum_sha256": "09d11cb683b86439d74ba680b5d11bb5b9cb51e9adae3cff789bd4e0d0113db2",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Chiến lược phát triển",
+        "sample_text_length": 35066
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__ban-giam-hieu.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__ban-giam-hieu.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 89879,
+      "checksum_sha256": "becf1e1d677c954f389f06821ce8a74748687c57ef0577dfac522eeb078190c6",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Ban Giám Hiệu Trường",
+        "sample_text_length": 2689
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__dang-doan-the.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__dang-doan-the.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 91247,
+      "checksum_sha256": "f61f7a8500246379240d237aa5f0def2e83cb6d615d840d9211cce19915488a2",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Đảng - Đoàn thể",
+        "sample_text_length": 2802
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__du-an-va-cong-ty.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__du-an-va-cong-ty.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 101328,
+      "checksum_sha256": "8190f68cb2cb2dc3d5cbe4e1b1f8e9a2bb2a5a131f1932127a528d2839d33f2c",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Sơ đồ tổ chức",
+        "sample_text_length": 2816
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__khoa-truc-thuoc.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__khoa-truc-thuoc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 142436,
+      "checksum_sha256": "bb78494b09de9249668f32772ab2f2974d85e1d82daf13638f5ef06d622b8ec6",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Khoa Trực thuộc",
+        "sample_text_length": 5429
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__phong-ban-chuc-nang.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__phong-ban-chuc-nang.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 93423,
+      "checksum_sha256": "08cf14bfc6db658aace7c14aa0460e2c5c5b65633c1d5cc06398613ef3038021",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Phòng ban chức năng",
+        "sample_text_length": 3052
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__phong-thi-nghiem-trong-diem.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__phong-thi-nghiem-trong-diem.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 67305,
+      "checksum_sha256": "af335e1fe63ad364b2f60ae12113de0635fa3cb6f033116a52633bf2d1c6205a",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Phòng thí nghiệm Trọng điểm",
+        "sample_text_length": 2767
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__so-do-to-chuc.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__co-cau-to-chuc__so-do-to-chuc.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 101514,
+      "checksum_sha256": "06ee48351fff931361f063d039b1f65411d09927843394c47ce728f2a6cc7cd7",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Sơ đồ tổ chức",
+        "sample_text_length": 2834
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__lich-su-phat-trien.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__lich-su-phat-trien.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 221186,
+      "checksum_sha256": "3ae603d0deecd48dbeb08a0e325763e9e3be1d7a42a22546cab1f70725cbe313",
+      "issues": [
+        "possible_mojibake"
+      ],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Lịch sử phát triển",
+        "sample_text_length": 41955
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__gioi-thieu__loi-chao-mung.html",
+      "file_name": "hus.vnu.edu.vn__gioi-thieu__loi-chao-mung.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 104108,
+      "checksum_sha256": "a388a278b848fb541c909cfd74142ba073549ac6fad8774494cc38802488e34b",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Lời chào mừng",
+        "sample_text_length": 5066
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__hoc-sinh-sinh-vien__gioi-thieu-chung.html",
+      "file_name": "hus.vnu.edu.vn__hoc-sinh-sinh-vien__gioi-thieu-chung.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 68548,
+      "checksum_sha256": "f07aaa288253060b1e21abb01129bdfd9af033816e0e8991b9ff45977e33d9f0",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Học sinh - Sinh viên",
+        "sample_text_length": 5112
+      }
+    },
+    {
+      "relative_path": "html/public_pages/hus.vnu.edu.vn__hoc-sinh-sinh-vien__quy-che-quy-dinh.html",
+      "file_name": "hus.vnu.edu.vn__hoc-sinh-sinh-vien__quy-che-quy-dinh.html",
+      "extension": ".html",
+      "file_type": "html",
+      "file_size_bytes": 61653,
+      "checksum_sha256": "2801172404d059730747d2bd9b59f001080eaf528f0932607820154761cc5dc4",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "title": "Quy chế, quy định",
+        "sample_text_length": 2427
+      }
+    },
+    {
+      "relative_path": "json/data_raw_manifest.json",
+      "file_name": "data_raw_manifest.json",
+      "extension": ".json",
+      "file_type": "json",
+      "file_size_bytes": 86463,
+      "checksum_sha256": "54763da5024f94dcf5abc60fa6d9b83f646414c8d03c4bd7f5e89eb1805b9d63",
+      "issues": [],
+      "probe": {
+        "row_count": 137,
+        "table_profile": {
+          "row_count": 137,
+          "column_count": 12,
+          "columns": [
+            {
+              "name": "language",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_name",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_url",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "access_note",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "relative_path",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "id",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "category",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_size_bytes",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "number"
+            },
+            {
+              "name": "description",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_domain",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "is_public",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_type",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            }
+          ],
+          "duplicate_rows": 0,
+          "outliers": {}
+        }
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/112.-ths-phuong-phap-toan-so-cap-qd-4930.pdf",
+      "file_name": "112.-ths-phuong-phap-toan-so-cap-qd-4930.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1400720,
+      "checksum_sha256": "ba589f1008534adcd46d15e4ad9b1304f6430b17ac5a26316004f95c576c986f",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 10,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/113.-ths-toan-ung-dung-qd-4931.pdf",
+      "file_name": "113.-ths-toan-ung-dung-qd-4931.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1560831,
+      "checksum_sha256": "241f35be642edf7ba23b710aee8500229361b0ad6ab3fd0e03b3eda06da64721",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/115.-ths-co-hoc-qd-4933.pdf",
+      "file_name": "115.-ths-co-hoc-qd-4933.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1549164,
+      "checksum_sha256": "b2bca12a59d6ba8d1ad559f86cadb8070cbc314a2f4f1d5503cc2a62ba52566c",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/116.-ths-co-so-toan-hoc-cho-tin-hoc-qd-4934-2.pdf",
+      "file_name": "116.-ths-co-so-toan-hoc-cho-tin-hoc-qd-4934-2.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1595565,
+      "checksum_sha256": "777d94de174687d65d481a4b26acca075f74454dcaf9d70859b1255778a4b57a",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/121.-ts-toan-giai-tich-qd-4935.pdf",
+      "file_name": "121.-ts-toan-giai-tich-qd-4935.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2234549,
+      "checksum_sha256": "12fcdf68f2a040c223a581abe2e4ef8aedf753198cc73024da6f176e5147421e",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/122.-ts-phuong-trinh-vi-phan-va-tich-phan-qd-4936.pdf",
+      "file_name": "122.-ts-phuong-trinh-vi-phan-va-tich-phan-qd-4936.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2265213,
+      "checksum_sha256": "ff537a063babdfee2204ac9cf230d06f151b645cc5724ad568ab058fbad30cfa",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/123.-ts-dai-so-va-ly-thuyet-so-qd-4937.pdf",
+      "file_name": "123.-ts-dai-so-va-ly-thuyet-so-qd-4937.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2541250,
+      "checksum_sha256": "775b7fcc2ba7ed75f70fd65ae987f9e15f38f8ca1c41b1d9311c41ea5c6a19ae",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 16,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/124.-ts-toan-ung-dung-qd-4938.pdf",
+      "file_name": "124.-ts-toan-ung-dung-qd-4938.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2269878,
+      "checksum_sha256": "7e5bd2d97b9e325f36dd4e8396880fd9027bedf8bdc31f1eed88b9efe7a90426",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/125.-ts-ly-thuyet-xac-suat-va-thong-ke-toan-hoc-qd-4939.pdf",
+      "file_name": "125.-ts-ly-thuyet-xac-suat-va-thong-ke-toan-hoc-qd-4939.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2389639,
+      "checksum_sha256": "1d76d66e8516647af1e9d58bddf1a8f9ec03c49f6507cfd6a6bacb95bd639123",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/126.-ts-co-so-toan-hoc-cho-tin-hoc-qd-4940.pdf",
+      "file_name": "126.-ts-co-so-toan-hoc-cho-tin-hoc-qd-4940.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2385528,
+      "checksum_sha256": "7a82f159a3f2e429f7241169e9ed01df1dbbcaa090d56d6794f46ce8f05c439e",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/127.-ts-co-hoc-qd-4941.pdf",
+      "file_name": "127.-ts-co-hoc-qd-4941.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2556138,
+      "checksum_sha256": "ee7897b1c7d927d7b5988c14e6f252b58d6bdd96cf756f6b45c4b3263cd894b4",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 16,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/211.-ths-vat-ly-qd-4942.pdf",
+      "file_name": "211.-ths-vat-ly-qd-4942.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1685133,
+      "checksum_sha256": "be66fc1be6869f6c62acfe2aad092bacace22698fda09f205a247fd6ea8df133",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/221.-ts-vat-ly-ly-thuyet-va-vlt-qd-4943.pdf",
+      "file_name": "221.-ts-vat-ly-ly-thuyet-va-vlt-qd-4943.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2466190,
+      "checksum_sha256": "9b5af89bcd1fe2a1c67caf4e419f3d9b237bed3b1f1d33fcdbe43adc3002b564",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 16,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/311.-ths-hoa-hoc-qd-3570.pdf",
+      "file_name": "311.-ths-hoa-hoc-qd-3570.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2641433,
+      "checksum_sha256": "c68e4a8361753b4dea8ddd72130456281a2263aec33b3d2a58ad36b9bbcfb805",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 17,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/312.-ths-ky-thuat-hoa-hoc-qd-3571.pdf",
+      "file_name": "312.-ths-ky-thuat-hoa-hoc-qd-3571.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1919736,
+      "checksum_sha256": "3885518cb048e506040f0a067ca4b2ced011950add89db28c149cf6656102246",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 13,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/313.-ths-hoa-phan-tich-qd-3572.pdf",
+      "file_name": "313.-ths-hoa-phan-tich-qd-3572.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1769464,
+      "checksum_sha256": "17ceebb9476d3a9fd88a56899e66d665cf2770949fba102c8ea280e29b243eba",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 12,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/321.-ts-hoa-vo-co-qd-4914.pdf",
+      "file_name": "321.-ts-hoa-vo-co-qd-4914.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2298193,
+      "checksum_sha256": "0797466fe74ceb3578525463b976142f940bed75507c3c79d08041cf9e58c879",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/322.-ts-hoa-huu-co-qd-4915.pdf",
+      "file_name": "322.-ts-hoa-huu-co-qd-4915.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2439060,
+      "checksum_sha256": "043f2419a0c0f411108df385e2fef8f7abbf6e81b456f2731c757a3b1451501b",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/323.-ts-hoa-phan-tich-qd-4916.pdf",
+      "file_name": "323.-ts-hoa-phan-tich-qd-4916.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2352024,
+      "checksum_sha256": "402eecf272ee40e6856a0bff48793cc4283e123b17b70d20ac6e253c0bb20b97",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/324.-ts-hoa-ly-thuyet-va-hoa-ly-qd-4917.pdf",
+      "file_name": "324.-ts-hoa-ly-thuyet-va-hoa-ly-qd-4917.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2489252,
+      "checksum_sha256": "22b3d45f25f702a1a97a9167b63f667345b4dbf25d0124bb7d026f70a7d7b1f3",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/325.-ts-hoa-moi-truong-qd-4918.pdf",
+      "file_name": "325.-ts-hoa-moi-truong-qd-4918.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2510649,
+      "checksum_sha256": "f152735eb816e0096a909a6d9566f56bdb6fe07e08517be077470fa71fc03a01",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/326.-ts-ky-thuat-hoa-dau-va-loc-dau-qd-4919.pdf",
+      "file_name": "326.-ts-ky-thuat-hoa-dau-va-loc-dau-qd-4919.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2461905,
+      "checksum_sha256": "044bec0107f660be4dd03a18e9261927845161a2ad913a6025d54fb48325db84",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/411.-ths-sinh-hoc-qd-4950.pdf",
+      "file_name": "411.-ths-sinh-hoc-qd-4950.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1812905,
+      "checksum_sha256": "b37d407197201f6d511197778855034f8ed7c75a80fa600c2ae673d40f92e6b4",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 12,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/412.-ths-cong-nghe-sinh-hoc-qd-4951.pdf",
+      "file_name": "412.-ths-cong-nghe-sinh-hoc-qd-4951.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1604062,
+      "checksum_sha256": "cdeede815ede95123f078170f3db38445a4b8e7e33135e214a49bf8d6e88ecf3",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/413.-ths-sinh-hoc-thuc-nghiem-qd-4952.pdf",
+      "file_name": "413.-ths-sinh-hoc-thuc-nghiem-qd-4952.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1662984,
+      "checksum_sha256": "63258f9b400c95e6feefd1944800e9a48cc62828bc14285be0fa6e024970b59b",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/414.-ths-di-truyen-hoc-qd-4953.pdf",
+      "file_name": "414.-ths-di-truyen-hoc-qd-4953.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1558253,
+      "checksum_sha256": "576efb86ec97c2011d434fd3c07e86b17fc5048ded608a9026b7a596ca42505e",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/421.-ts-dong-vat-hoc-qd-4900.pdf",
+      "file_name": "421.-ts-dong-vat-hoc-qd-4900.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2305762,
+      "checksum_sha256": "bca3f258252ded51ed817ee475e6e64d6389385ccd91a11e762656c6786b4d0f",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/422.-ts-sinh-ly-hoc-nguoi-va-dong-vat-qd-4901.pdf",
+      "file_name": "422.-ts-sinh-ly-hoc-nguoi-va-dong-vat-qd-4901.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2235061,
+      "checksum_sha256": "7d2a50c5c61c837da83765630111153fa5bfffa193c564d0291c5d1a20f7434f",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/423.-ts-con-trung-hoc-qd-4902.pdf",
+      "file_name": "423.-ts-con-trung-hoc-qd-4902.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2167859,
+      "checksum_sha256": "088a18fcb66adf95a7ba69ef515e2e591c57e5d55bbf063a743f39ced2360464",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/424.-ts-sinh-ly-hoc-thuc-vat-qd-4903.pdf",
+      "file_name": "424.-ts-sinh-ly-hoc-thuc-vat-qd-4903.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2271322,
+      "checksum_sha256": "2f5f4fe92137cb2cc752d459a3e3b01a641be04de1846dabd64dfb20259928d4",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/425.-ts-vi-sinh-vat-hoc-qd-4904.pdf",
+      "file_name": "425.-ts-vi-sinh-vat-hoc-qd-4904.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2212926,
+      "checksum_sha256": "1715824e8187e02c01052cf1aa6199778fffb96337671fe4caa72bbf7d5dfe72",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/426.-ts-thuc-vat-hoc-qd-4905.pdf",
+      "file_name": "426.-ts-thuc-vat-hoc-qd-4905.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2217881,
+      "checksum_sha256": "b7eb29b33d6c1eb78e6a75984ebdfba833c30bb867cbad3e9e535addd240f790",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/427.-ts-hoa-sinh-hoc-qd-4906.pdf",
+      "file_name": "427.-ts-hoa-sinh-hoc-qd-4906.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2143115,
+      "checksum_sha256": "91d0f1394461efa1c5f2323287d5ee67a378c363a3f03dd04329640972f7ab6e",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 13,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/428.-ts-di-truyen-hoc-qd-4907.pdf",
+      "file_name": "428.-ts-di-truyen-hoc-qd-4907.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2208757,
+      "checksum_sha256": "57e496cfebfb7eebc89007da30a75d0ef1b1738db6bd7fc913d2a1687a2a606a",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/511.-ths-dia-ly-qd-4920.pdf",
+      "file_name": "511.-ths-dia-ly-qd-4920.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2367991,
+      "checksum_sha256": "6e6cbab5e1adc7db90f3be0d52d9a53325514d7168342fe0449041104871703e",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 15,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/512.-ths-ban-do-vien-tham-va-he-thong-tin-dia-ly-qd-4921.pdf",
+      "file_name": "512.-ths-ban-do-vien-tham-va-he-thong-tin-dia-ly-qd-4921.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1720995,
+      "checksum_sha256": "3251bb700799eda748b6530506bafe0889f970106571d30572809c461de3b244",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 12,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/513.-ths-quan-ly-tai-nguyen-va-moi-truong-qd-4922.pdf",
+      "file_name": "513.-ths-quan-ly-tai-nguyen-va-moi-truong-qd-4922.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1981846,
+      "checksum_sha256": "2dabc0fe1776bae3b3d94f22a7d221771a652f5f4ad732f3e443d163142979c8",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 13,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/515.-ths-quan-ly-dat-dai-dinh-huong-ung-dung-qd-4924.pdf",
+      "file_name": "515.-ths-quan-ly-dat-dai-dinh-huong-ung-dung-qd-4924.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1694077,
+      "checksum_sha256": "72f515ec52f7e97dfcf224fe1f3e33862c919c13f70c97731879ffb50a338e21",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/801.-qd-3529-cong-nghe-ki-thuat-moi-truong-final.pdf",
+      "file_name": "801.-qd-3529-cong-nghe-ki-thuat-moi-truong-final.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2330274,
+      "checksum_sha256": "a8dc1153bb321dd98b87b9ec0c7d8c3a1b8a5135bd003ef7d344dab66aeaac31",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 16,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/805.-moi-truong-suc-khoe-va-an-toan-final-qd-3533.pdf",
+      "file_name": "805.-moi-truong-suc-khoe-va-an-toan-final-qd-3533.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2302570,
+      "checksum_sha256": "707b1993f65b9454f7b7d9e0b6af23497615df4b4874013b9db7a0d0a9b9d168",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 16,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/812.-ths-ky-thuat-moi-truong-qd-3578-1.pdf",
+      "file_name": "812.-ths-ky-thuat-moi-truong-qd-3578-1.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1979342,
+      "checksum_sha256": "11e39efe8f82b8ce26ed44af1bc140a3eaa04c86951c66cc3ac4e3ee6fe5404c",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 13,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/813.-ths-mtptbv-nc-qd-3579.pdf",
+      "file_name": "813.-ths-mtptbv-nc-qd-3579.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2014419,
+      "checksum_sha256": "a87258dc202e6faf646cbec77d91ffec14463c092640cdea504278deaf8f78c4",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 13,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/814.-ths-mtptbv-ud-qd-3580.pdf",
+      "file_name": "814.-ths-mtptbv-ud-qd-3580.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2069062,
+      "checksum_sha256": "ceff333b97809f1723204eb44366c3236dcdae2a6bb70daf3ee53f9084228d26",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/821.-ts-ky-thuat-moi-truong-qd-3583.pdf",
+      "file_name": "821.-ts-ky-thuat-moi-truong-qd-3583.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2935125,
+      "checksum_sha256": "e5d05d98710dee4d475000c285b6dd914544ed92b9aa1a14e52b82ce5f5f0681",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 19,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/dao_tao/822.-ts-mtdn-qd-3582.pdf",
+      "file_name": "822.-ts-mtdn-qd-3582.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 3220512,
+      "checksum_sha256": "e0dac9bc0139198a18894800d8a658e8bc2d52acb622e39cbe0285a5e9452634",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 21,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/1.ptn-khoa-hoc-du-lieu.pdf",
+      "file_name": "1.ptn-khoa-hoc-du-lieu.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 188683,
+      "checksum_sha256": "0d08a04b72f7583f63498010c408a71f01543f2b37767bfc8b3536b59d914b39",
+      "issues": [],
+      "probe": {
+        "page_count": 2,
+        "sample_text_length": 2969,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/10.ptn-khoa-hoc-du-lieu-chuyen-de.pdf",
+      "file_name": "10.ptn-khoa-hoc-du-lieu-chuyen-de.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 188644,
+      "checksum_sha256": "848e72a8baa8aab53a4387ec2a6ef071c0f3670a83cfd5ae6dc5050abdf2d329",
+      "issues": [],
+      "probe": {
+        "page_count": 2,
+        "sample_text_length": 2963,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/114.-ths-khoa-hoc-du-lieu-qd-4932-2.pdf",
+      "file_name": "114.-ths-khoa-hoc-du-lieu-qd-4932-2.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1843246,
+      "checksum_sha256": "85f9c38d683d62d39c03143f7ea57f186345ceab76026d46fb72c5eca8921258",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 12,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/20.ptn-tinh-toan-trong-khoa-hoc-vat-lieu.pdf",
+      "file_name": "20.ptn-tinh-toan-trong-khoa-hoc-vat-lieu.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 255122,
+      "checksum_sha256": "0b23edbb556702a8e916aba7c8e27d3925d4b03ecb1dbc63900bc676585e738a",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1652,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/25.ptn-hoa-moi-truong.pdf",
+      "file_name": "25.ptn-hoa-moi-truong.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 137701,
+      "checksum_sha256": "70d26aa9aea0e64280fadda0941f1b8b5a69aa501260983c982f37ed1d5d95a1",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 2719,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/34.ptn-bm-hoa-sinh-va-sinh-hoc-phan-tu.pdf",
+      "file_name": "34.ptn-bm-hoa-sinh-va-sinh-hoc-phan-tu.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 177004,
+      "checksum_sha256": "8c21b495f8b538f95c2c4a4f3895ff2fe997a360603896c589a54df5959ae06e",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 2393,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/35.ptn-bm-vi-sinh-vat-hoc.pdf",
+      "file_name": "35.ptn-bm-vi-sinh-vat-hoc.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 137144,
+      "checksum_sha256": "fb13c7e7ef5432b7737b2d584f75e78bd4eb4e6cfc3e72242356369395fad40c",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 3172,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/37.ptn-bm-sinh-hoc-te-bao.pdf",
+      "file_name": "37.ptn-bm-sinh-hoc-te-bao.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 135880,
+      "checksum_sha256": "b8ae373303a740cfec72ff0fd8c25c2d4bb208c9e8211372f9800f18f570d86d",
+      "issues": [],
+      "probe": {
+        "page_count": 2,
+        "sample_text_length": 2666,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/38.ptn-bm-sinh-ly-hoc-va-sinh-hoc-nguoi.pdf",
+      "file_name": "38.ptn-bm-sinh-ly-hoc-va-sinh-hoc-nguoi.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 202088,
+      "checksum_sha256": "6e2fc49a80135bf9d3db95b7d7e26f98d69550466f1b6f8abc244fb9d5e5caa6",
+      "issues": [],
+      "probe": {
+        "page_count": 2,
+        "sample_text_length": 3470,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/42.ptn-bm-sinh-thai-hoc.pdf",
+      "file_name": "42.ptn-bm-sinh-thai-hoc.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 132928,
+      "checksum_sha256": "8e90d7f5ca8980b3f70d505d72e96ce4bf19fcb7f4d828c01bcd98498f8aa3eb",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1918,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/45.ptn-bm-dia-mao-va-dia-ly---moi-truong-bien.pdf",
+      "file_name": "45.ptn-bm-dia-mao-va-dia-ly---moi-truong-bien.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 129778,
+      "checksum_sha256": "84e2c4efdf411f3ed5957199ca37d1d6508588031a25014a2beb2462c9c9a455",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1433,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/46.ptn-bm-sinh-thai-canh-quan-va-moi-truong.pdf",
+      "file_name": "46.ptn-bm-sinh-thai-canh-quan-va-moi-truong.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 129465,
+      "checksum_sha256": "00e4e7b33fd602b12bba3168c3e68362bca9557a2d561f72155b20d6ac7b36b2",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1456,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/50.ptn-bm-dia-chat-moi-truong.pdf",
+      "file_name": "50.ptn-bm-dia-chat-moi-truong.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 170645,
+      "checksum_sha256": "7387049b9fa0dbc54ed60342e1501adfb5ad3fdd1040269bb02b7b85bda71d4a",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1150,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/514.-ths-quan-ly-dat-dai-dinh-huong-nghien-cuu-qd-4923.pdf",
+      "file_name": "514.-ths-quan-ly-dat-dai-dinh-huong-nghien-cuu-qd-4923.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1678867,
+      "checksum_sha256": "22b60dee34f5bbe31678c12d67cfc4d0db954cdd0ea8b539022f797041e26da8",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 11,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/58.ptn-bm-sinh-thai-moi-truong.pdf",
+      "file_name": "58.ptn-bm-sinh-thai-moi-truong.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 129045,
+      "checksum_sha256": "61e0afa00e71938fce7268a598dc4da24de9676ff3099bc317d6d449c085cb6a",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1984,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/59.ptn-khoa-hoc-dat-va-moi-truong.pdf",
+      "file_name": "59.ptn-khoa-hoc-dat-va-moi-truong.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 130146,
+      "checksum_sha256": "21b2cc15fae795974503e318e328b8ce5a3edf58b5d0fe7b561e5f8410adb1c2",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1625,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/60.ptn-bm-cong-nghe-moi-truong.pdf",
+      "file_name": "60.ptn-bm-cong-nghe-moi-truong.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 129556,
+      "checksum_sha256": "c44ec774b5c50589594994c23f1d8c20f6ecd94b86e31f751b9f6a630325042d",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 2143,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/802.-khoa-hoc-moi-truong-final-qd-3530.pdf",
+      "file_name": "802.-khoa-hoc-moi-truong-final-qd-3530.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2413511,
+      "checksum_sha256": "d57ba74b17fab6e56a99d0864e50264cc658e49c6dd3aa1b17ce3be9ed1f3f07",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 16,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/803.-khoa-hoc-moi-truong-chat-luong-cao-final-qd-3531.pdf",
+      "file_name": "803.-khoa-hoc-moi-truong-chat-luong-cao-final-qd-3531.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2514687,
+      "checksum_sha256": "874eade287393c610ac298a704aa397d79c6ee32d099782562f491dff08c981f",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 17,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/804.-khoa-hoc-va-cong-nghe-thuc-pham-final-qd-3532.pdf",
+      "file_name": "804.-khoa-hoc-va-cong-nghe-thuc-pham-final-qd-3532.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1997505,
+      "checksum_sha256": "0c64ff3b6cc3de5b67a17c2504a581edf0733159cefccc3a645407f8bb86a63c",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 14,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/811.-ths-khoa-hoc-moi-truong-qd-3577.pdf",
+      "file_name": "811.-ths-khoa-hoc-moi-truong-qd-3577.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1927382,
+      "checksum_sha256": "80ec0b7d866104886e61ef1c046ad5e7cfc111bcbebe103c6f236e06ee55f67d",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 13,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/nghien_cuu/823.-ts-khoa-hoc-moi-truong-qd-3581.pdf",
+      "file_name": "823.-ts-khoa-hoc-moi-truong-qd-3581.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 3279826,
+      "checksum_sha256": "ae6ed215902777ca545725f537ebb6c421639795169b7d9594a39f1f4624ec31",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 21,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/sinh_vien/02.hd-nop-hoc-phi-qua-ma-dinh-danh.pdf",
+      "file_name": "02.hd-nop-hoc-phi-qua-ma-dinh-danh.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 310166,
+      "checksum_sha256": "eeee13f52348a285a0410f84fb989a16f262d3ed89aafa10a10d60b00be6a9ff",
+      "issues": [],
+      "probe": {
+        "page_count": 2,
+        "sample_text_length": 1384,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/sinh_vien/03.mau-ly-lich-2025_k70.pdf",
+      "file_name": "03.mau-ly-lich-2025_k70.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 214338,
+      "checksum_sha256": "dc6099aeed1518a021952c920498917b155d106d9cf9bcd09de2b5050c460b05",
+      "issues": [
+        "pdf_text_truncated"
+      ],
+      "probe": {
+        "page_count": 2,
+        "sample_text_length": 10650,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/sinh_vien/04.-huong-dan-sv-dang-ki-ktx.pdf",
+      "file_name": "04.-huong-dan-sv-dang-ki-ktx.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 1761990,
+      "checksum_sha256": "a3a000be48e862d807ba8254fd29273b2e987566b0e7526a6c3e01975ce33b88",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 9,
+        "sample_text_length": 148,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/thong_tin_chung/4.phong-thuc-hanh-hoa-sinh-va-sinh-hoc-phan-tu.pdf",
+      "file_name": "4.phong-thuc-hanh-hoa-sinh-va-sinh-hoc-phan-tu.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 135763,
+      "checksum_sha256": "89df4f1b6a803be2540884aafeed2f60ae6fc5917adaab24f758e213a94e9fd6",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 2158,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/thong_tin_chung/5.phong-thuc-hanh-sinh-hoc-te-bao.pdf",
+      "file_name": "5.phong-thuc-hanh-sinh-hoc-te-bao.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 132578,
+      "checksum_sha256": "3b07472f8f196460edab593e1588e4fe6ac2627584d462ebd51cbbaa5d91fa19",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 2035,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/thong_tin_chung/66.tt-cong-nghe-moi-truong-va-phat-trien-ben-vung.pdf",
+      "file_name": "66.tt-cong-nghe-moi-truong-va-phat-trien-ben-vung.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 220010,
+      "checksum_sha256": "8c78dc0ca0e68894222c4e83c9a99d16c76494e581bc4d2a8b46090a9636cd8b",
+      "issues": [],
+      "probe": {
+        "page_count": 2,
+        "sample_text_length": 5770,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/thong_tin_chung/7.phong-thuc-hanh-da-dang-sinh-hoc.pdf",
+      "file_name": "7.phong-thuc-hanh-da-dang-sinh-hoc.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 174141,
+      "checksum_sha256": "1a2458676662b891b45bafdc14779e8fab84d786b5ff5696fea3fb8bcd676cf4",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1601,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/thong_tin_chung/8.bao-tang-sinh-hoc.pdf",
+      "file_name": "8.bao-tang-sinh-hoc.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 133262,
+      "checksum_sha256": "a186dc34036743b8fb0dae91294ca62c5ef9a6137010d54c9f135153051731e7",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1801,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/tuyen_sinh/1.tb_xt-vao-ctdt-dac-biet_2025_len-website.pdf",
+      "file_name": "1.tb_xt-vao-ctdt-dac-biet_2025_len-website.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 274134,
+      "checksum_sha256": "58771b008af5205dce01f5644ea512ec32e50af9d631c876ca53bed0f4cca1f5",
+      "issues": [],
+      "probe": {
+        "page_count": 5,
+        "sample_text_length": 4975,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/tuyen_sinh/17.ptn-bm-vat-ly-vo-tuyen-va-dien-tu.pdf",
+      "file_name": "17.ptn-bm-vat-ly-vo-tuyen-va-dien-tu.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 183801,
+      "checksum_sha256": "d4f3898d4e3f9d8504ac43a554b90540aec9db6d17ab4bd3b05dfafb0336eb2d",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 3316,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/tuyen_sinh/223.-ts-vo-tuyen-va-dien-tu-qd-4945.pdf",
+      "file_name": "223.-ts-vo-tuyen-va-dien-tu-qd-4945.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 2593626,
+      "checksum_sha256": "42694675b0b4261c0022939e96f0bc7451c04520300bd33b73ef76b2313c8a9b",
+      "issues": [
+        "pdf_sample_needs_ocr"
+      ],
+      "probe": {
+        "page_count": 17,
+        "sample_text_length": 0,
+        "needs_ocr_sample": true
+      }
+    },
+    {
+      "relative_path": "pdf/tuyen_sinh/9.1.26-chi-tiet-du-thao_dang-cong-tuyen-sinh-1-edit.pdf",
+      "file_name": "9.1.26-chi-tiet-du-thao_dang-cong-tuyen-sinh-1-edit.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 334200,
+      "checksum_sha256": "3daa8575092b510f722818e3e262c7c6a6d152d3603c07c492bdd7efb204a51a",
+      "issues": [],
+      "probe": {
+        "page_count": 9,
+        "sample_text_length": 3389,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/tuyen_sinh/danh-sach-trung-tuyen_ctdb_2025-final.pdf",
+      "file_name": "danh-sach-trung-tuyen_ctdb_2025-final.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 196225,
+      "checksum_sha256": "8465a25d56edc38becae5fd91c56ba8d7c95fe77a70613c03f9268d8f45246c0",
+      "issues": [],
+      "probe": {
+        "page_count": 5,
+        "sample_text_length": 3605,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/tuyen_sinh/huong-dan-thi-sinh-dang-ky-xet-tuyen-2025-14.06.2025-final.pdf",
+      "file_name": "huong-dan-thi-sinh-dang-ky-xet-tuyen-2025-14.06.2025-final.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 692452,
+      "checksum_sha256": "4eed627590d6fae06fbf3ec76e586154b0ca14ca27aada38460c65ce30ccde35",
+      "issues": [],
+      "probe": {
+        "page_count": 5,
+        "sample_text_length": 1820,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "pdf/tuyen_sinh/thong-bao-gia-han-dang-ky-xet-tuyen-truc-tuyen-vao-dhcq-nam-2025.pdf",
+      "file_name": "thong-bao-gia-han-dang-ky-xet-tuyen-truc-tuyen-vao-dhcq-nam-2025.pdf",
+      "extension": ".pdf",
+      "file_type": "pdf",
+      "file_size_bytes": 380990,
+      "checksum_sha256": "9157d107ca37734ed7dc614b7f8d48ae47163813bedac82d83a5837cb3008ed4",
+      "issues": [],
+      "probe": {
+        "page_count": 1,
+        "sample_text_length": 1277,
+        "needs_ocr_sample": false
+      }
+    },
+    {
+      "relative_path": "source_lists/collected_sources.json",
+      "file_name": "collected_sources.json",
+      "extension": ".json",
+      "file_type": "json",
+      "file_size_bytes": 83312,
+      "checksum_sha256": "1824a72cc59f840511da74d2d466d09f70f4d7ee122e3eb533b5f83f3147a96d",
+      "issues": [],
+      "probe": {
+        "row_count": 137,
+        "table_profile": {
+          "row_count": 137,
+          "column_count": 11,
+          "columns": [
+            {
+              "name": "language",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_name",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_url",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "access_note",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "relative_path",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "category",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_size_bytes",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "number"
+            },
+            {
+              "name": "description",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_domain",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "is_public",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "file_type",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            }
+          ],
+          "duplicate_rows": 0,
+          "outliers": {}
+        }
+      }
+    },
+    {
+      "relative_path": "source_lists/collection_skipped.json",
+      "file_name": "collection_skipped.json",
+      "extension": ".json",
+      "file_type": "json",
+      "file_size_bytes": 1587,
+      "checksum_sha256": "c621863154154d9ea27c3585d6751e5af13ac47c48aeee71ed56dcbaea58b2a8",
+      "issues": [],
+      "probe": {
+        "row_count": 10,
+        "table_profile": {
+          "row_count": 10,
+          "column_count": 3,
+          "columns": [
+            {
+              "name": "path",
+              "missing_count": 2,
+              "missing_percent": 20.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "reason",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "url",
+              "missing_count": 8,
+              "missing_percent": 80.0,
+              "inferred_type": "string"
+            }
+          ],
+          "duplicate_rows": 0,
+          "outliers": {}
+        }
+      }
+    },
+    {
+      "relative_path": "source_lists/pdf_links_discovered.json",
+      "file_name": "pdf_links_discovered.json",
+      "extension": ".json",
+      "file_type": "json",
+      "file_size_bytes": 39307,
+      "checksum_sha256": "b26254d3467b68b70a68a291101d8e8f9994feaa3c819760088332cf208a6efc",
+      "issues": [],
+      "probe": {
+        "row_count": 166,
+        "table_profile": {
+          "row_count": 166,
+          "column_count": 3,
+          "columns": [
+            {
+              "name": "title",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "url",
+              "missing_count": 0,
+              "missing_percent": 0.0,
+              "inferred_type": "string"
+            },
+            {
+              "name": "source_page",
+              "missing_count": 25,
+              "missing_percent": 15.06,
+              "inferred_type": "string"
+            }
+          ],
+          "duplicate_rows": 0,
+          "outliers": {}
+        }
+      }
+    },
+    {
+      "relative_path": "source_lists/source_urls.txt",
+      "file_name": "source_urls.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 9096,
+      "checksum_sha256": "16616ac077460bc8095b32ce3b20c54b364d1e49f29353c59ae641f7b4b13ded",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 9096
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_027fa3f614398a4fa239.txt",
+      "file_name": "doc_027fa3f614398a4fa239.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1817,
+      "checksum_sha256": "0cafa3f39a6fff518984dd8c180d1200cc45b853c8d412cd0ef7a8e4bf3a235a",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1416
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_0694e882d8c90da1f786.txt",
+      "file_name": "doc_0694e882d8c90da1f786.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1532,
+      "checksum_sha256": "2f70dc2499a9bafcad297c26e6669168b5d8d897a12b73298c3e2037101b0eb8",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1146
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_0b509214e7de656c05fe.txt",
+      "file_name": "doc_0b509214e7de656c05fe.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1463,
+      "checksum_sha256": "b2f1fe1d8d036d493faf4cb70fe46a11a3bab6d787d2a0f344cba39fbea9f940",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1122
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_1c656e876adff872c6d1.txt",
+      "file_name": "doc_1c656e876adff872c6d1.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 52569,
+      "checksum_sha256": "210dd019616ad858f95a00e7cf98a9377ba1e92296c5ad37dcfa6bd5b0611ac9",
+      "issues": [
+        "possible_mojibake"
+      ],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 20000
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_1f902284aaa372b66942.txt",
+      "file_name": "doc_1f902284aaa372b66942.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 11072,
+      "checksum_sha256": "8769bdea03e2782961e4a668157cd421a060db38841a10cb80c1747f026887f1",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 9399
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_27e30d3d9376b10d2e06.txt",
+      "file_name": "doc_27e30d3d9376b10d2e06.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 4529,
+      "checksum_sha256": "510f6c5e1be5c211177089501c7d65deab686bb495e7450c9d6e38a78c30fa30",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 3371
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_30ae6e60094d7daffed1.txt",
+      "file_name": "doc_30ae6e60094d7daffed1.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1854,
+      "checksum_sha256": "0bbd68c3bb84f1bcf7c0ab5653a1ab1fac28b61d7556be593c4aa596dbb412a5",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1439
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_3661b5a22a8294fec8bf.txt",
+      "file_name": "doc_3661b5a22a8294fec8bf.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 2288,
+      "checksum_sha256": "014c88547cb0c95509c4b2ca2c5fec8a22732b767b6e37f0e0e220f671a3a350",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1710
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_43723f892a1e4bafbf78.txt",
+      "file_name": "doc_43723f892a1e4bafbf78.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1604,
+      "checksum_sha256": "772be4931d04a358905000357e47c61ac292add6a929310d24cc902e112d1535",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1254
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_44255159780aab8e1475.txt",
+      "file_name": "doc_44255159780aab8e1475.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 17591,
+      "checksum_sha256": "c280e1ff6c6597fc1275f56d18dae056f32f949487c0a8842e05520462b9872a",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 13888
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_475f3c55a3d67b8ffe9e.txt",
+      "file_name": "doc_475f3c55a3d67b8ffe9e.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1249,
+      "checksum_sha256": "f9806fc5cf30fb0b0a1673dc421446103dab06c8c578ba93ce11ce09c7521c89",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 914
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_55c22d2ace9a76d05488.txt",
+      "file_name": "doc_55c22d2ace9a76d05488.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 43191,
+      "checksum_sha256": "2dbf1a5b9d084409fc4b8add6e408cd0aa311b06efc2c69fffc83dfd4045fc26",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 20000
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_58dfc017a9ba74e47238.txt",
+      "file_name": "doc_58dfc017a9ba74e47238.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 48138,
+      "checksum_sha256": "38e000920ba4ef6458c859b86a16208e6dad5e0383c444bd6a13b68d11eb1230",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 20000
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_592a1e17021dd580e158.txt",
+      "file_name": "doc_592a1e17021dd580e158.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 2485,
+      "checksum_sha256": "3b176f9b80e2617ef133a9666992a000a9554028b7fc17ef37dcb288205a1cf8",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1965
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_7653afc915a108d40634.txt",
+      "file_name": "doc_7653afc915a108d40634.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 3467,
+      "checksum_sha256": "d9ed2e9446bc3dd01c11795d6a86f86a350f9ef9289a9f4092162e6fba9a404b",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 2576
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_79c87893ab97ac2229d2.txt",
+      "file_name": "doc_79c87893ab97ac2229d2.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 2836,
+      "checksum_sha256": "75cac7e61fe9dfe605f21a2196582135a0279fcd40239be376c327503548bff4",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 2169
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_7b8c8076410322e8cc36.txt",
+      "file_name": "doc_7b8c8076410322e8cc36.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 15585,
+      "checksum_sha256": "9a07f50be72ab3483db80293a43c566476a2f65b88308eafbf7d43813f610d6a",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 11889
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_8db3084419cc9f68a731.txt",
+      "file_name": "doc_8db3084419cc9f68a731.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 11104,
+      "checksum_sha256": "d848379715e8ac3cba8e710d377ff1075a8923f1185eb2b40129704088f45f45",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 10494
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_91eb43497dc0f5e9741f.txt",
+      "file_name": "doc_91eb43497dc0f5e9741f.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 26002,
+      "checksum_sha256": "3e8cf11d514f636fc16a39459a7e7d9150301d7f8ddf0022caa7c64230986160",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 19881
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_978c9a3b9a26bc0ff5b0.txt",
+      "file_name": "doc_978c9a3b9a26bc0ff5b0.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1741,
+      "checksum_sha256": "f1f620f7527acfd8e91e2902709b9fcc8ed65ebeb9f19d483fd6ce7e2794036b",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1304
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_bb228fb7488deb48d6d2.txt",
+      "file_name": "doc_bb228fb7488deb48d6d2.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 5564,
+      "checksum_sha256": "f7e252f352ec80205dae0568fe1ef86dd814f8b032737007df6b18730a2450da",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 4215
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_c678b3b190fc655993fc.txt",
+      "file_name": "doc_c678b3b190fc655993fc.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 5573,
+      "checksum_sha256": "f72dd1e37a382b319641000b9e5b1bbebecfc832e488151ba4894af70071cbfd",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 4224
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_cd7bb8dd3f3fef3653ce.txt",
+      "file_name": "doc_cd7bb8dd3f3fef3653ce.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1700,
+      "checksum_sha256": "0ad794ae725e558029aa707511201507bf2ce7ac2640eaedbb73bf8a2cca01bc",
+      "issues": [
+        "possible_mojibake"
+      ],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 1342
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_cecb3ddc9396f577feaa.txt",
+      "file_name": "doc_cecb3ddc9396f577feaa.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 5177,
+      "checksum_sha256": "30e796eec4eb54a1db4dc911ed28912efaf7264c3fc32b1959691c5f5c1f2992",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 3994
+      }
+    },
+    {
+      "relative_path": "text/parsed_public_pages/doc_e7c5d0c77cb56de6c755.txt",
+      "file_name": "doc_e7c5d0c77cb56de6c755.txt",
+      "extension": ".txt",
+      "file_type": "txt",
+      "file_size_bytes": 1279,
+      "checksum_sha256": "ea5baa27d92e24c0a5cd5a7ef999758c1f1520bd11a993d27a1abb69e40de895",
+      "issues": [],
+      "probe": {
+        "encoding": "utf-8-sig",
+        "sample_text_length": 983
+      }
+    }
+  ]
+}

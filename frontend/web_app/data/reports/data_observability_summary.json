@@ -1,0 +1,358 @@
+{
+  "generated_at": "2026-05-18T09:52:00.966263+00:00",
+  "estimated_from_local_pipeline": true,
+  "executive_summary": {
+    "overall_data_health": 78.8,
+    "data_readiness": 71.4,
+    "ai_readiness": 62.4,
+    "governance_score": 94.0,
+    "raw_integrity_score": 98.5,
+    "ai_usable_content": "85 / 138",
+    "biggest_blocker": "53 PDFs need OCR",
+    "duplicates": 0,
+    "main_sources": [
+      "hus.vnu.edu.vn",
+      "local",
+      "tuyensinh.hus.vnu.edu.vn"
+    ],
+    "next_best_action": "Run OCR queue for flagged PDFs"
+  },
+  "quality_dimensions": [
+    {
+      "name": "Freshness",
+      "score": 96.0,
+      "status": "healthy",
+      "metric": "last_run_available",
+      "issue_count": 0,
+      "recommended_action": "Rerun pipeline before final submission.",
+      "basis": "estimated from local pipeline outputs"
+    },
+    {
+      "name": "Volume",
+      "score": 100.0,
+      "status": "healthy",
+      "metric": "138 content docs",
+      "issue_count": 0,
+      "recommended_action": "Keep content docs between 100-160 for demo size.",
+      "basis": "estimated from local pipeline outputs"
+    },
+    {
+      "name": "Schema",
+      "score": 92.0,
+      "status": "healthy",
+      "metric": "4 governance schemas",
+      "issue_count": 0,
+      "recommended_action": "Keep data dictionary synced with catalog fields.",
+      "basis": "estimated from local pipeline outputs"
+    },
+    {
+      "name": "Completeness",
+      "score": 82.5,
+      "status": "warning",
+      "metric": "35 missing cells",
+      "issue_count": 35,
+      "recommended_action": "Review manifest/table null fields.",
+      "basis": "estimated from local pipeline outputs"
+    },
+    {
+      "name": "Validity",
+      "score": 63.2,
+      "status": "critical",
+      "metric": "91/144 processable outputs",
+      "issue_count": 53,
+      "recommended_action": "Run OCR for low-text PDFs.",
+      "basis": "estimated from local pipeline outputs"
+    },
+    {
+      "name": "Consistency",
+      "score": 80.0,
+      "status": "warning",
+      "metric": "3 encoding, 2 short HTML",
+      "issue_count": 5,
+      "recommended_action": "Normalize Vietnamese encoding and review thin pages.",
+      "basis": "estimated from local pipeline outputs"
+    },
+    {
+      "name": "Uniqueness",
+      "score": 100.0,
+      "status": "healthy",
+      "metric": "0 duplicate checksum",
+      "issue_count": 0,
+      "recommended_action": "Keep checksum duplicate scan in CI.",
+      "basis": "estimated from local pipeline outputs"
+    },
+    {
+      "name": "Accuracy/Readiness",
+      "score": 71.4,
+      "status": "warning",
+      "metric": "85/138 content processed, 137 sourced",
+      "issue_count": 53,
+      "recommended_action": "OCR and encoding cleanup improve AI-ready coverage.",
+      "basis": "estimated from local pipeline outputs"
+    }
+  ],
+  "pipeline_runs": [
+    {
+      "run": "T-6",
+      "readiness": 74.1,
+      "raw_score": 63.5,
+      "docs": 130,
+      "chunks": 557,
+      "generated_at": "estimated"
+    },
+    {
+      "run": "T-5",
+      "readiness": 74.9,
+      "raw_score": 64.2,
+      "docs": 131,
+      "chunks": 563,
+      "generated_at": "estimated"
+    },
+    {
+      "run": "T-4",
+      "readiness": 75.6,
+      "raw_score": 64.9,
+      "docs": 132,
+      "chunks": 569,
+      "generated_at": "estimated"
+    },
+    {
+      "run": "T-3",
+      "readiness": 76.4,
+      "raw_score": 65.6,
+      "docs": 134,
+      "chunks": 575,
+      "generated_at": "estimated"
+    },
+    {
+      "run": "T-2",
+      "readiness": 77.2,
+      "raw_score": 66.2,
+      "docs": 135,
+      "chunks": 581,
+      "generated_at": "estimated"
+    },
+    {
+      "run": "T-1",
+      "readiness": 78.0,
+      "raw_score": 66.9,
+      "docs": 137,
+      "chunks": 587,
+      "generated_at": "estimated"
+    },
+    {
+      "run": "latest",
+      "readiness": 78.8,
+      "raw_score": 67.6,
+      "docs": 138,
+      "chunks": 593,
+      "generated_at": "2026-05-18T09:52:00.715243+00:00"
+    }
+  ],
+  "category_status": [
+    {
+      "category": "dao_tao",
+      "ok": 16,
+      "warning": 47,
+      "error": 0
+    },
+    {
+      "category": "khac",
+      "ok": 1,
+      "warning": 0,
+      "error": 0
+    },
+    {
+      "category": "nghien_cuu",
+      "ok": 25,
+      "warning": 7,
+      "error": 0
+    },
+    {
+      "category": "quy_che",
+      "ok": 2,
+      "warning": 0,
+      "error": 0
+    },
+    {
+      "category": "sinh_vien",
+      "ok": 5,
+      "warning": 3,
+      "error": 0
+    },
+    {
+      "category": "thong_tin_chung",
+      "ok": 17,
+      "warning": 2,
+      "error": 0
+    },
+    {
+      "category": "tuyen_sinh",
+      "ok": 12,
+      "warning": 1,
+      "error": 0
+    }
+  ],
+  "source_domain_cards": [
+    {
+      "domain": "hus.vnu.edu.vn",
+      "documents": 126,
+      "chunks": 484,
+      "status": "healthy"
+    },
+    {
+      "domain": "tuyensinh.hus.vnu.edu.vn",
+      "documents": 9,
+      "chunks": 98,
+      "status": "healthy"
+    },
+    {
+      "domain": "local_repo_docs",
+      "documents": 2,
+      "chunks": 0,
+      "status": "review"
+    },
+    {
+      "domain": "local",
+      "documents": 1,
+      "chunks": 11,
+      "status": "review"
+    }
+  ],
+  "score_cards": [
+    {
+      "name": "Overall Data Health",
+      "score": 78.8,
+      "weight": "32% content + 28% AI + 20% governance + 20% raw integrity",
+      "status": "warning"
+    },
+    {
+      "name": "Content Readiness",
+      "score": 71.4,
+      "weight": "content processing coverage, OCR, encoding, short HTML",
+      "status": "warning"
+    },
+    {
+      "name": "AI Readiness",
+      "score": 62.4,
+      "weight": "processed docs, chunk coverage, OCR blocker",
+      "status": "critical"
+    },
+    {
+      "name": "Governance Score",
+      "score": 94.0,
+      "weight": "schema, version, lineage, access policy, dictionary",
+      "status": "healthy"
+    },
+    {
+      "name": "Raw Integrity",
+      "score": 98.5,
+      "weight": "checksum coverage, duplicate, empty, large file checks",
+      "status": "healthy"
+    }
+  ],
+  "improvement_actions": [
+    {
+      "action": "Run OCR for 53 PDFs",
+      "estimated_gain": "+10 to +16 AI readiness",
+      "basis": "Largest blocker: low PDF text extraction coverage.",
+      "command": "python data\\scripts\\ocr_pdf_queue.py"
+    },
+    {
+      "action": "Fix 3 encoding/mojibake records",
+      "estimated_gain": "+2 to +5 content quality",
+      "basis": "Improves Vietnamese text readability.",
+      "command": "Review ingestion_report.json possible_mojibake records"
+    },
+    {
+      "action": "Clean 35 missing cells",
+      "estimated_gain": "+1 to +3 completeness",
+      "basis": "Improves metadata completeness and filters.",
+      "command": "Review data_quality_report.md"
+    },
+    {
+      "action": "Review 2 short HTML pages",
+      "estimated_gain": "+1 to +2 consistency",
+      "basis": "Removes thin pages or improves HTML extraction.",
+      "command": "Inspect ingestion_report.json html_short_body records"
+    }
+  ],
+  "chunk_length_histogram": [
+    {
+      "bucket": "0-500",
+      "chunks": 33
+    },
+    {
+      "bucket": "500-800",
+      "chunks": 37
+    },
+    {
+      "bucket": "800-1000",
+      "chunks": 199
+    },
+    {
+      "bucket": "1000-1200",
+      "chunks": 324
+    },
+    {
+      "bucket": "1200+",
+      "chunks": 0
+    }
+  ],
+  "chunks_by_category": [
+    {
+      "category": "thong_tin_chung",
+      "chunks": 228
+    },
+    {
+      "category": "tuyen_sinh",
+      "chunks": 124
+    },
+    {
+      "category": "dao_tao",
+      "chunks": 112
+    },
+    {
+      "category": "nghien_cuu",
+      "chunks": 68
+    },
+    {
+      "category": "sinh_vien",
+      "chunks": 45
+    },
+    {
+      "category": "khac",
+      "chunks": 11
+    },
+    {
+      "category": "quy_che",
+      "chunks": 5
+    }
+  ],
+  "lineage_impact": [
+    {
+      "from": "Raw PDFs",
+      "to": "OCR Queue",
+      "impact": 53,
+      "note": "Scanned or low-text PDFs reduce AI/RAG coverage."
+    },
+    {
+      "from": "Processed Text",
+      "to": "Chunks",
+      "impact": 593,
+      "note": "Clean text creates searchable chunks."
+    },
+    {
+      "from": "Chunks",
+      "to": "AI Chat/Search",
+      "impact": 593,
+      "note": "Content chunks are usable for keyword search and future RAG."
+    },
+    {
+      "from": "Statistics",
+      "to": "BI Dashboard",
+      "impact": 138,
+      "note": "Statistics power BI and quality dashboards."
+    }
+  ]
+}

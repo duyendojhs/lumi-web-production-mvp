@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-18T09:52:00.718612+00:00",
+  "dataset_access": "Public academic dataset for learning/research demos.",
+  "source_policy": [
+    "Use only public sources that do not require login.",
+    "Do not store application secrets or API keys in data files.",
+    "Keep raw storage local unless a reviewed storage policy is added.",
+    "Do not commit .env, .env.local, API keys, or private credentials."
+  ],
+  "local_paths": {
+    "raw": "D:\\DM\\lumi\\data\\raw",
+    "processed": "D:\\DM\\lumi\\data\\processed",
+    "features": "D:\\DM\\lumi\\data\\features",
+    "metadata": "D:\\DM\\lumi\\data\\metadata",
+    "reports": "D:\\DM\\lumi\\data\\reports"
+  },
+  "planned_controls": [
+    "DVC dataset versioning",
+    "S3/HDFS object storage policy",
+    "PostgreSQL row-level access",
+    "audit logs"
+  ]
+}

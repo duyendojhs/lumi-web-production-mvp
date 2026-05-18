@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-05-18T09:52:00.716794+00:00",
+  "schemas": {
+    "data_catalog": {
+      "primary_key": "document_id",
+      "fields": {
+        "document_id": "string",
+        "title": "string",
+        "file_type": "pdf|html|txt|json|csv|xlsx|archive|md|other",
+        "category": "string",
+        "relative_path": "string",
+        "source_url": "string",
+        "source_domain": "string",
+        "file_size_bytes": "integer",
+        "checksum_sha256": "string",
+        "ingestion_status": "ok|warning|error",
+        "issues": "array<string>"
+      }
+    },
+    "processed_documents": {
+      "primary_key": "document_id",
+      "fields": {
+        "processed_text_path": "string",
+        "text_length_chars": "integer",
+        "word_count": "integer",
+        "needs_ocr": "boolean",
+        "processing_status": "ok|warning|error|skipped"
+      }
+    },
+    "document_chunks": {
+      "primary_key": "chunk_id",
+      "fields": {
+        "document_id": "string",
+        "chunk_index": "integer",
+        "text": "string",
+        "source_url": "string",
+        "category": "string",
+        "char_count": "integer",
+        "word_count": "integer"
+      }
+    },
+    "data_statistics": {
+      "fields": {
+        "total_raw_files": "integer",
+        "content_documents": "integer",
+        "manifest_files": "integer",
+        "system_files": "integer",
+        "archive_files": "integer",
+        "total_documents": "integer",
+        "total_chunks": "integer",
+        "content_readiness_score": "number",
+        "quality_score": "number",
+        "issue_counts": "object"
+      }
+    }
+  }
+}

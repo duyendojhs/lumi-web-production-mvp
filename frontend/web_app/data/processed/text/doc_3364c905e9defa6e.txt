@@ -1,0 +1,161 @@
+STT TT 
+CTĐT Mã SV Họ tên Ngày sinh Giới tính Trúng tuyển 
+chương trình đào tạo
+1 1 25000024 Trần Minh Hoàng 09/05/2007 Nam Tài năng Toán học
+2 2 25000052 Đặng Văn Thành 03/02/2007 Nam Tài năng Toán học
+3 3 25000050 Vương Khánh Toàn 31/12/2007 Nam Tài năng Toán học
+4 4 25000013 Nguyễn Trần Du 27/07/2007 Nam Tài năng Toán học
+5 5 25000026 Nguyễn Hoàng Huy 07/02/2007 Nam Tài năng Toán học
+6 6 25000036 Ngô Quang Minh 26/09/2007 Nam Tài năng Toán học
+7 7 25000001 Dương Đức Đình Anh 22/12/2007 Nam Tài năng Toán học
+8 8 25000042 Vũ Trần Ngọc Nguyên 22/04/2007 Nam Tài năng Toán học
+9 9 25000018 Nguyễn Hoàng Dương 10/07/2007 Nam Tài năng Toán học
+10 10 25000033 Vũ Hải Long 16/10/2007 Nam Tài năng Toán học
+11 11 25000049 Bùi Minh Tiến 28/09/2007 Nam Tài năng Toán học
+12 12 25000092 Phan Đăng Huân 09/08/2007 Nam Tài năng Toán học
+13 13 25000096 Trần Đức Khang 14/04/2007 Nam Tài năng Toán học
+14 14 25000038 Phạm Nhật Nam 31/08/2007 Nam Tài năng Toán học
+15 15 25000019 Nguyễn Minh Đăng 08/03/2007 Nam Tài năng Toán học
+16 16 25000009 Trần Việt Cường 01/08/2007 Nam Tài năng Toán học
+17 1 25000435 Nguyễn Thế Quân 28/02/2007 Nam Tài năng Vật lí học
+18 2 25000524 Lý Bá Khôi 09/02/2007 Nam Tài năng Vật lí học
+19 3 25000351 Trương Đức Dũng 29/08/2007 Nam Tài năng Vật lí học
+20 4 25000438 Nguyễn Thái Sơn 26/09/2007 Nam Tài năng Vật lí học
+21 5 25000391 Ngô Quang Huy 10/12/2007 Nam Tài năng Vật lí học
+22 6 25000394 Đặng Nguyễn Tuấn Hưng 23/08/2007 Nam Tài năng Vật lí học
+23 7 25000745 Đỗ Tiến Minh 14/03/2007 Nam Tài năng Vật lí học
+24 8 25000778 Trần Anh Tuấn 21/09/2007 Nam Tài năng Vật lí học
+ĐẠI HỌC QUỐC GIA HÀ NỘI
+TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN DANH SÁCH SINH VIÊN TRÚNG TUYỂN VÀO CÁC CHƯƠNG 
+TRÌNH ĐÀO TẠO TÀI NĂNG VÀ CHẤT LƯỢNG CAO NĂM 2025
+(kèm theo Quyết định số 3354 /QĐ-ĐHKHTN ngày 10/ 9 /2025)
+1/5
+
+STT TT 
+CTĐT Mã SV Họ tên Ngày sinh Giới tính Trúng tuyển 
+chương trình đào tạo
+25 9 25000449 Phạm Minh Tùng 17/08/2007 Nam Tài năng Vật lí học
+26 10 25000437 Nguyễn Minh Sơn 30/04/2007 Nam Tài năng Vật lí học
+27 11 25000350 Đặng Trọng Dũng 30/08/2007 Nam Tài năng Vật lí học
+28 12 25000452 Vũ Đức Thịnh 27/10/2007 Nam Tài năng Vật lí học
+29 13 25000364 Nguyễn Anh Đức 24/10/2007 Nam Tài năng Vật lí học
+30 14 25000343 Vũ Việt Cường 26/06/2007 Nam Tài năng Vật lí học
+31 15 25000341 Đỗ Quang Bình 31/05/2007 Nam Tài năng Vật lí học
+32 16 25000429 Nguyễn Xuân Nhật 06/01/2007 Nam Tài năng Vật lí học
+33 17 25000420 Phạm Công Minh 10/04/2002 Nam Tài năng Vật lí học
+34 18 25000687 Phạm Gia Bảo 22/07/2007 Nam Tài năng Vật lí học
+35 19 25000330 Khương Thế Anh 13/11/2007 Nam Tài năng Vật lí học
+36 20 25000403 Bùi Ngọc Khánh Linh 05/06/2007 Nữ Tài năng Vật lí học
+37 21 25000796 Đỗ Bảo Vân 11/11/2007 Nữ Tài năng Vật lí học
+38 22 25000377 Nguyễn Văn Hiệp 28/10/2007 Nam Tài năng Vật lí học
+39 23 25000666 Phạm Trường An 06/04/2007 Nam Tài năng Vật lí học
+40 1 25001039 Ngô Quang Minh 08/11/2007 Nam Tài năng Hóa học
+41 2 25001010 Trần Trung Kiên 02/08/2007 Nam Tài năng Hóa học
+42 3 25000960 Hồ Lê Gia Bình 20/06/2007 Nam Tài năng Hóa học
+43 4 25001055 Đinh Nguyễn Yến Nhi 31/05/2007 Nữ Tài năng Hóa học
+44 5 25000948 Lại Đức Anh 28/12/2007 Nam Tài năng Hóa học
+45 6 25000967 Trần Minh Chí 03/04/2007 Nam Tài năng Hóa học
+46 7 25001068 Nguyễn Minh Quân 28/07/2007 Nam Tài năng Hóa học
+47 8 25000976 Ngô Tất Đạt 30/06/2007 Nam Tài năng Hóa học
+48 9 25000975 Lê Thành Đạt 06/07/2007 Nam Tài năng Hóa học
+49 10 25001011 Hoàng Minh Khang 06/07/2007 Nam Tài năng Hóa học
+50 11 25000992 Đậu Thị Hiền 07/09/2007 Nữ Tài năng Hóa học
+51 12 25001000 Phạm Đức Hoàng 02/01/2007 Nam Tài năng Hóa học
+2/5
+
+STT TT 
+CTĐT Mã SV Họ tên Ngày sinh Giới tính Trúng tuyển 
+chương trình đào tạo
+52 13 25001062 Nguyễn Quang Phúc 20/03/2007 Nam Tài năng Hóa học
+53 14 25000979 Trần Đức Đạt 22/10/2007 Nam Tài năng Hóa học
+54 15 25000996 Chu Trung Hiếu 14/12/2007 Nam Tài năng Hóa học
+55 16 25001088 Trịnh Đắc Thịnh 16/11/2007 Nam Tài năng Hóa học
+56 17 25000983 Nguyễn Thu Giang 20/11/2007 Nữ Tài năng Hóa học
+57 18 25001082 Nguyễn Đình Thái 16/07/2007 Nam Tài năng Hóa học
+58 19 25000958 Nguyễn Hoàng Ngọc Ánh 06/10/2007 Nữ Tài năng Hóa học
+59 20 25000180 Hoàng Tuấn Phong 25/11/2007 Nam Tài năng Hóa học
+60 21 25001090 Nguyễn Minh Thu 27/09/2007 Nữ Tài năng Hóa học
+61 1 25001420 Nguyễn Ngọc Huyền 14/12/2007 Nữ Tài năng Sinh học 
+62 2 25001496 Lại Thị Vang 17/05/2007 Nữ Tài năng Sinh học 
+63 3 25001395 Phạm Đình Khánh Đoan 04/04/2007 Nữ Tài năng Sinh học 
+64 4 25001430 Quách Thị Hoàng Lan 06/06/2007 Nữ Tài năng Sinh học 
+65 5 25001465 Nguyễn Hồng Phương 10/03/2007 Nữ Tài năng Sinh học 
+66 6 25001442 Đoàn Tâm Mai 02/08/2007 Nữ Tài năng Sinh học 
+67 7 25001447 Hoàng Bình Minh 13/10/2007 Nam Tài năng Sinh học 
+68 8 25001575 Trần Lê Da Huy 08/02/2007 Nam Tài năng Sinh học 
+69 9 25001659 Nguyễn Minh Tuấn 13/12/2007 Nam Tài năng Sinh học 
+70 10 25001485 Trần Anh Thư 19/03/2007 Nữ Tài năng Sinh học 
+71 11 25001631 Đỗ Hà Phương 09/01/2007 Nữ Tài năng Sinh học 
+72 12 25001553 Bùi Minh Đức 26/07/2007 Nam Tài năng Sinh học 
+73 13 25001621 Cao Hà Yến Nhi 09/12/2007 Nữ Tài năng Sinh học 
+74 14 25001649 Nguyễn Sỹ Quyền 19/01/2007 Nam Tài năng Sinh học 
+75 15 25001619 Lưu Văn Nhật 28/07/2007 Nam Tài năng Sinh học 
+76 16 25001623 Bùi Thị Kim Oanh 09/08/2007 Nữ Tài năng Sinh học 
+77 17 25001628 Vũ Bảo Hồng Phúc 14/08/2007 Nam Tài năng Sinh học 
+78 18 25001554 Nguyễn Hương Giang 28/11/2007 Nữ Tài năng Sinh học 
+3/5
+
+STT TT 
+CTĐT Mã SV Họ tên Ngày sinh Giới tính Trúng tuyển 
+chương trình đào tạo
+79 19 25001680 Nguyễn Thị Thu Trang 30/03/2007 Nữ Tài năng Sinh học 
+80 20 25001614 Nguyễn Hà Khánh Ngọc 12/03/2007 Nữ Tài năng Sinh học 
+81 21 25001537 Nguyễn Mai Chi 08/07/2007 Nữ Tài năng Sinh học 
+82 22 25001640 Nguyễn Vinh Quang 24/10/2007 Nam Tài năng Sinh học 
+83 23 25001411 Phạm Quý Hoàng Hiệp 07/02/2007 Nam Tài năng Sinh học 
+84 24 25001608 Nguyễn Viết Minh 09/08/2007 Nam Tài năng Sinh học 
+85 25 25001451 Phạm Hoàng Minh 13/09/2007 Nam Tài năng Sinh học 
+86 26 25001408 Đỗ Thị Minh Hiền 26/01/2007 Nữ Tài năng Sinh học 
+87 27 25001448 Lê Công Minh 12/10/2007 Nam Tài năng Sinh học 
+88 1 25002211 Đỗ Hà Minh Thái 25/05/2007 Nam Chất lượng cao Khoa học môi trường
+89 2 25002043 Vũ Lam Anh 18/02/2007 Nữ Chất lượng cao Khoa học môi trường
+90 3 25002051 Hồ Bảo Châu 06/06/2005 Nữ Chất lượng cao Khoa học môi trường
+91 4 25002097 Hoàng Thị Uyển My 09/11/2007 Nữ Chất lượng cao Khoa học môi trường
+92 5 25002311 Phạm Hải Đăng 02/10/2007 Nam Chất lượng cao Khoa học môi trường
+93 6 25002312 Đỗ Anh Đức 05/11/2007 Nam Chất lượng cao Khoa học môi trường
+94 7 25002155 Nguyễn Thanh Chúc 08/11/2007 Nữ Chất lượng cao Khoa học môi trường
+95 8 25002320 Vũ Thanh Hằng 12/03/2007 Nữ Chất lượng cao Khoa học môi trường
+96 9 25002146 Phùng Huyền Anh 11/09/2007 Nữ Chất lượng cao Khoa học môi trường
+97 10 25002404 Bùi Thị Thương 09/10/2007 Nữ Chất lượng cao Khoa học môi trường
+98 11 25002257 Hoàng Trần Khánh Linh 23/04/2007 Nữ Chất lượng cao Khoa học môi trường
+99 12 25002069 Lương Gia Hân 06/04/2007 Nữ Chất lượng cao Khoa học môi trường
+100 13 25002055 Nguyễn Đình Hoàng Chiến 09/12/2007 Nam Chất lượng cao Khoa học môi trường
+101 14 25002705 Phạm Thanh Thùy 31/08/2007 Nữ Chất lượng cao Khoa học môi trường
+102 15 25002110 Trần Nhật Quang 03/06/2007 Nam Chất lượng cao Khoa học môi trường
+103 1 25002569 Đào Thị Phương Anh 15/09/2007 Nữ Chất lượng cao Địa chất học
+104 2 25002564 Hoàng Thùy Trang 02/11/2007 Nữ Chất lượng cao Địa chất học
+105 3 25002552 Phạm Bích Ngọc 23/08/2007 Nữ Chất lượng cao Địa chất học
+4/5
+
+STT TT 
+CTĐT Mã SV Họ tên Ngày sinh Giới tính Trúng tuyển 
+chương trình đào tạo
+106 1 25002470 Lê Trung Kiên 28/08/2006 Nam Chất lượng cao Hải dương học
+107 1 25002449 Trần Văn Thành 25/12/2007 Nam Chất lượng cao Khí tượng và khí hậu 
+học
+108 2 25002437 Lê Bùi Nhật Minh 26/11/2007 Nữ Chất lượng cao Khí tượng và khí hậu 
+học
+109 1 25001288 Nguyễn Đình Khánh Hùng 10/11/2007 Nam Chất lượng cao Hóa học
+110 2 25001246 Lê Phương Anh 08/09/2007 Nữ Chất lượng cao Hóa học
+111 3 25001244 Đỗ Mai Anh 23/07/2007 Nữ Chất lượng cao Hóa học
+112 4 25001077 Cao Xuân Thái Tuấn 10/08/2007 Nam Chất lượng cao Hóa học
+113 5 25000981 Nguyễn Hương Giang 02/03/2007 Nữ Chất lượng cao Hóa học
+114 6 25001022 Cao Vũ Hải Linh 30/08/2007 Nữ Chất lượng cao Hóa học
+115 7 25000968 Nguyễn Văn Chiến 04/10/2007 Nam Chất lượng cao Hóa học
+116 8 25001109 Nguyễn Thị Hải Yến 13/10/2007 Nữ Chất lượng cao Hóa học
+117 9 25001319 Quách Thị Trà My 29/09/2007 Nữ Chất lượng cao Hóa học
+118 10 25001250 Nguyễn Thị Lan Anh 26/01/2007 Nữ Chất lượng cao Hóa học
+119 11 25001050 Đỗ Thái Nguyên 11/01/2007 Nam Chất lượng cao Hóa học
+120 12 25000959 Trịnh Thái Bảo 02/09/2007 Nam Chất lượng cao Hóa học
+121 13 25000946 Đỗ Lan Anh 30/04/2007 Nữ Chất lượng cao Hóa học
+122 14 25000999 Hoàng Trung Hiếu 11/02/2007 Nam Chất lượng cao Hóa học
+123 15 25001338 Đặng Mai Phương 03/07/2007 Nữ Chất lượng cao Hóa học
+124 16 25000987 Nguyễn Huy Hải 28/02/2007 Nam Chất lượng cao Hóa học
+125 17 25001126 Võ Lê Bảo Châm 16/11/2007 Nữ Chất lượng cao Hóa học
+126 18 25000970 Trần Trung Dũng 13/01/2007 Nam Chất lượng cao Hóa học
+127 19 25001067 Nguyễn Đại Quang 05/05/2007 Nam Chất lượng cao Hóa học
+128 20 25001329 Giang Thanh Nhàn 03/10/2007 Nữ Chất lượng cao Hóa học
+129 21 25001357 Nguyễn Minh Thúy 20/01/2007 Nữ Chất lượng cao Hóa học
+130 22 25001273 Bùi Anh Đức 13/01/2007 Nam Chất lượng cao Hóa học
+Danh sách gồm có 130 sinh viên./.
+5/5

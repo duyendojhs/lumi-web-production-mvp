@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-18T09:58:27.671890+00:00",
+  "index_type": "local_keyword_plus_optional_embeddings",
+  "chunks_indexed": 593,
+  "documents_indexed": 85,
+  "keyword_terms": 378,
+  "keyword_index_ready": true,
+  "embedding_status": "skipped",
+  "embedding_model": null,
+  "embedding_note": "keyword index ready; embeddings skipped by default for lightweight demo",
+  "vector_db_status": "roadmap",
+  "files": {
+    "chunks_for_rag": "data/features/rag_index/chunks_for_rag.jsonl",
+    "simple_keyword_index": "data/features/rag_index/simple_keyword_index.json",
+    "embeddings": "data/features/rag_index/embeddings.npy",
+    "embeddings_meta": "data/features/rag_index/embeddings_meta.json"
+  }
+}

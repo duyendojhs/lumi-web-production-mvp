@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-05-18T09:52:00.718612+00:00",
+  "data_catalog": {
+    "document_id": "Stable id from path and checksum.",
+    "title": "Display title inferred from metadata, HTML title, or cleaned filename.",
+    "file_type": "pdf/html/txt/json/csv/xlsx/md/archive/other.",
+    "data_role": "content, manifest, system, archive, table, or other.",
+    "category": "Domain category inferred from path or source manifest.",
+    "relative_path": "Path inside data/raw.",
+    "source_url": "Public source URL if present in manifest.",
+    "ingestion_status": "ok, warning, or error.",
+    "issues": "Detected raw/ingestion issues."
+  },
+  "document_chunks": {
+    "chunk_id": "Stable chunk id.",
+    "document_id": "Parent document id.",
+    "chunk_index": "Order inside document.",
+    "text": "Chunk text used for keyword/search demo.",
+    "is_content_document": "True for pdf/html/txt content docs."
+  },
+  "data_statistics": {
+    "content_documents": "PDF/HTML/TXT content docs, excluding manifests/system/archive.",
+    "manifest_files": "JSON/CSV/XLSX manifest/support files.",
+    "content_readiness_score": "Demo-friendly score focused on content processing readiness.",
+    "quality_breakdown": "Penalty breakdown and recommended fixes."
+  }
+}

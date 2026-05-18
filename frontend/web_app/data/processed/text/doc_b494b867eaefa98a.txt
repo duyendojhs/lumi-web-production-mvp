@@ -1,0 +1,16 @@
+Bang du lieu: collection_skipped
+Nguon: 
+So dong: 10
+So cot: 3
+Cot: path, url, reason
+Mau du lieu:
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-15\\114.-ths-khoa-hoc-du-lieu-qd-4932-3.pdf", "reason": "duplicate_pdf_hash"}
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-15\\114.-ths-khoa-hoc-du-lieu-qd-4932-4.pdf", "reason": "duplicate_pdf_hash"}
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-15\\114.-ths-khoa-hoc-du-lieu-qd-4932-5.pdf", "reason": "duplicate_pdf_hash"}
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-15\\114.-ths-khoa-hoc-du-lieu-qd-4932.pdf", "reason": "duplicate_pdf_hash"}
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-17\\114.-ths-khoa-hoc-du-lieu-qd-4932.pdf", "reason": "duplicate_pdf_hash"}
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-15\\116.-ths-co-so-toan-hoc-cho-tin-hoc-qd-4934-3.pdf", "reason": "duplicate_pdf_hash"}
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-15\\116.-ths-co-so-toan-hoc-cho-tin-hoc-qd-4934-4.pdf", "reason": "duplicate_pdf_hash"}
+{"path": "D:\\DM\\lumi-ai-assistant\\data\\raw\\pdf\\2026-05-15\\116.-ths-co-so-toan-hoc-cho-tin-hoc-qd-4934.pdf", "reason": "duplicate_pdf_hash"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/114.-ths-khoa-hoc-du-lieu-qd-4932.pdf", "reason": "duplicate_pdf_hash"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/116.-ths-co-so-toan-hoc-cho-tin-hoc-qd-4934.pdf", "reason": "duplicate_pdf_hash"}

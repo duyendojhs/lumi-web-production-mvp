@@ -1,0 +1,47 @@
+PHIẾU CUNG CẤP THÔNG TIN 
+VỀ PHÒNG THÍ NGHIỆM, TRUNG TÂM NGHIÊN CỨU 
+1. Tên phòng thí nghiệm/ Trung tâm nghiên cứu: PTN BM Vật lý Vô tuyến và Điện tử 
+2. Loại hình: PTN chuyên đề 
+3. Ngành/ Chuyên ngành đào tạo: Vật lý / Vật lý vô tuyến và điện tử 
+4. Trưởng phòng thí nghiệm / Giám đốc trung tâm: TS. Phạm Văn Thành 
+5. Danh sách cán bộ cơ hữu: TS. Đỗ Trung Kiên, TS. Đặng Thị Thanh Thủy, TS. Lê Quang Thảo, 
+ThS. Trần Vĩnh Thắng, ThS. Lương Thị Minh Thúy, GV. Võ Lý Thanh Hà, GV. Đỗ Quang Lộc, 
+6. Danh sách cán bộ nghiên cứu chủ chốt: TS. Đỗ Trung Kiên, TS. Đặng Thị Thanh Thủy, TS. Lê 
+Quang Thảo, ThS. Trần Vĩnh Thắng, ThS. Lương Thị Minh Thúy, GV. Võ Lý Thanh Hà, GV. Đỗ 
+Quang Lộc 
+7. Mức độ đầu tư: PTN hiện có và trong kế hoạch cần được đầu tư bổ sung 
+8. Các thiết bị nghiên cứu chính: 
+- Các hệ bài chuyên sâu về vô tuyến điện tử, các hệ bài về kỹ thuật điều chế xung, số. Máy phân 
+tích phổ, Máy phân tích mạng vectơ. Máy phát dao động điện có chức năng kết nối máy tính 
+- Thiết bị siêu âm kiểm tra không phá hủy phát hiện khuyết tật, thiết bị đo độ dầy mẫu vật bằng siêu 
+âm, thiết bị nội soi phát hi ện khuyết tật , thiết bị phát/thu xung siêu âm xung kim và xung vuông , 
+biến tử siêu âm có tần sô 0.5 MHz đến 10 MHz. 
+9. Hướng nghiên cứu chính: 
+- Hướng 1: Kỹ thuật điện tử siêu cao tần tập trung nghiên cứu về kỹ thuật radar, kỹ thuật anten, kỹ 
+thuật thu phát tín hiệu cao tần, khuếch đại và lọc tín hiệu cao tần… 
+- Hướng 2 : Kỹ thuật đo lường và xử lý tín hiệu nghiên cứu chết ạo các cảm biến đo đạc các thong 
+số môi trường, y-sinh, địa điện…; xử lý tín hiệu tương tự và tín hiệu số, hệ đo nhiều cảm biến thu 
+thập và truyền tín hiệu không dây… 
+- Hướng 3: Vật lý ứng dụng nghiên cứu về điện tử ứng dụng trong công nghiệp và đời sống; nghiên 
+cứu phương pháp siêu âm kiểm tra không phá hủy ứng dụng khảo sát khuyết tật trong các mẫu vật 
+đàn hồi ứng dụng trong xây dựng, chế tạo máy, y tế, … 
+- 5 từ khóa về hướng nghiên cứu chính: Siêu cao tần; Đo lường và xử lý tín hiệu; Điện tử ứng dụng; 
+Phương pháp siêu âm; Kiểm tra không phá hủy. 
+10. Sản phẩm đã có, có thể chuyển giao: 
+- Tài liệu lý thuyết một số bài thực tập chuyên đề kỹ thuật điện tử hiện đại. 
+- 02 giáo trình đã được NXB ĐHQG xuất bản 
+- Tài liệu lý thuyết về 10 bài thực hành điện – điện tử 
+- Phương pháp siêu âm kiểm tra không phá hủy khảo sát sai hỏng trong các mẫu vật rắn đàn hồi. 
+- Phương pháp siêu âm ki ểm tra không phát h ủy khảo sát các tính ch ất cơ học của vật liệu như ứng 
+suất trượt, ứng suất Young, ứng suất khối từ đó đánh giá được chất lượng của vật liệu khảo sát. 
+11. Dự kiến sản phẩm KHCN trong giai đoạn 2016-2020: 
+- Một số loại cảm biến ứng dụng đo các thong số môi trường, y-sinh, địa điện,… 
+- Hệ đo nhiều cảm biến thu thập các thong số môi trường không dây; hệ thống điều khiển các thông 
+số môi trường như nhiệt độ, độ ẩm,…ứng dụng trong nông nghiệp. 
+- Hệ thống thu phát và xử lý tín hiệu siêu cao tần ứng dụng trong truyền tin không dây 
+- Nghiên cứu tính chất bức xạ điện từ tối ưu các anten cấu trúc vi dải 
+- Nghiên cứu ứng dụng phương pháp siêu âm kiểm tra không phá hủy khảo sát khuyết tật ứng dụng 
+trong xâydựng, chế tạo máy, y tế,… 
+- Đào tạo các cử nhân, cao học và NCS Vật lý. 
+- 3 từ khóa về sản phẩm: Các module điện tử; Thiết bị điều khiển cầm tay; Quy trình kiểm tra 
+không phá hủy.

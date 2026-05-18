@@ -1,0 +1,37 @@
+{
+  "dataset_name": "Lumi Data Layer Local Dataset",
+  "version": "local-1.0",
+  "created_at": "2026-05-18T09:52:00.717801+00:00",
+  "raw_path": "D:\\DM\\lumi\\data\\raw",
+  "processed_path": "D:\\DM\\lumi\\data\\processed",
+  "features_path": "D:\\DM\\lumi\\data\\features",
+  "total_raw_files": 146,
+  "content_documents": 138,
+  "manifest_files": 6,
+  "system_files": 1,
+  "archive_files": 1,
+  "total_documents": 146,
+  "total_chunks": 655,
+  "checksum_summary": "e5a7abebf1383c2ba219c420e1ccbb974b76415e5d5c42a01e5cbba14b5d910b",
+  "pipeline_steps": [
+    "inspect_raw_data.py",
+    "ingest_raw_data.py",
+    "process_documents.py",
+    "build_features.py"
+  ],
+  "access_policy": "Local educational project dataset; raw files are not exposed directly to public clients.",
+  "security_note": "Do not store secrets or API keys in data files. Dataset outputs contain metadata and extracted public text only.",
+  "quality_score": 66.3,
+  "content_readiness_score": 71.4,
+  "ai_readiness_score": 62.4,
+  "governance_score": 94.0,
+  "raw_integrity_score": 98.5,
+  "overall_data_health": 78.8,
+  "ingestion_issue_counts": {
+    "large_file": 1,
+    "html_short_body": 2,
+    "possible_mojibake": 3,
+    "pdf_sample_needs_ocr": 54,
+    "pdf_text_truncated": 1
+  }
+}

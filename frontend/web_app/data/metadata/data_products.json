@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-05-18T09:52:00.968262+00:00",
+  "products": [
+    {
+      "name": "HUS Admissions Knowledge",
+      "category": "tuyen_sinh",
+      "documents": 13,
+      "chunks": 124,
+      "quality_score": 71.8,
+      "readiness": "review",
+      "source_domains": [
+        "hus.vnu.edu.vn",
+        "tuyensinh.hus.vnu.edu.vn"
+      ],
+      "main_issues": [
+        "pdf_needs_ocr"
+      ],
+      "used_by": [
+        "AI Chat",
+        "Search Index",
+        "BI Dashboard"
+      ],
+      "owner": "Lumi Data Team",
+      "sla": "Refresh before demo/submission"
+    },
+    {
+      "name": "HUS Training Programs",
+      "category": "dao_tao",
+      "documents": 63,
+      "chunks": 112,
+      "quality_score": 45,
+      "readiness": "review",
+      "source_domains": [
+        "hus.vnu.edu.vn",
+        "local_repo_docs"
+      ],
+      "main_issues": [
+        "pdf_needs_ocr"
+      ],
+      "used_by": [
+        "AI Chat",
+        "BI Dashboard"
+      ],
+      "owner": "Lumi Data Team",
+      "sla": "Refresh before demo/submission"
+    },
+    {
+      "name": "Research Labs & Facilities",
+      "category": "nghien_cuu",
+      "documents": 32,
+      "chunks": 68,
+      "quality_score": 67.9,
+      "readiness": "review",
+      "source_domains": [
+        "hus.vnu.edu.vn",
+        "local_repo_docs"
+      ],
+      "main_issues": [
+        "pdf_needs_ocr"
+      ],
+      "used_by": [
+        "AI Chat",
+        "Search Index"
+      ],
+      "owner": "Lumi Data Team",
+      "sla": "Refresh before demo/submission"
+    },
+    {
+      "name": "Student Guidance Documents",
+      "category": "sinh_vien",
+      "documents": 8,
+      "chunks": 45,
+      "quality_score": 71.3,
+      "readiness": "review",
+      "source_domains": [
+        "hus.vnu.edu.vn"
+      ],
+      "main_issues": [
+        "pdf_needs_ocr"
+      ],
+      "used_by": [
+        "AI Chat",
+        "BI Dashboard"
+      ],
+      "owner": "Lumi Data Team",
+      "sla": "Refresh before demo/submission"
+    },
+    {
+      "name": "Governance & Regulations",
+      "category": "quy_che",
+      "documents": 2,
+      "chunks": 5,
+      "quality_score": 71.6,
+      "readiness": "review",
+      "source_domains": [
+        "hus.vnu.edu.vn"
+      ],
+      "main_issues": [
+        "none"
+      ],
+      "used_by": [
+        "AI Chat",
+        "Compliance View"
+      ],
+      "owner": "Lumi Data Team",
+      "sla": "Refresh before demo/submission"
+    }
+  ]
+}

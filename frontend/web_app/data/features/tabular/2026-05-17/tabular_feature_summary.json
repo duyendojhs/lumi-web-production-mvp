@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-05-17T16:16:47.931234+00:00",
+  "source_scope": "sample_demo",
+  "manifest_records": 3,
+  "row_counts": {
+    "courses_sample.jsonl": 4,
+    "schedule_sample.jsonl": 6,
+    "students_sample.jsonl": 5
+  },
+  "missing_value_counts": {},
+  "unique_programs": [
+    "Khoa hoc du lieu",
+    "Khoa hoc may tinh va thong tin",
+    "Toan hoc",
+    "Toan ung dung va Tin hoc"
+  ],
+  "unique_courses": [
+    "Cau truc du lieu va giai thuat",
+    "Nhap mon Khoa hoc du lieu",
+    "Toan roi rac",
+    "Xac suat thong ke"
+  ],
+  "exam_dates": [
+    "2026-06-10",
+    "2026-06-12",
+    "2026-06-15"
+  ],
+  "class_schedule_counts": {
+    "Monday": 1,
+    "Wednesday": 1,
+    "Friday": 1
+  },
+  "searchable_text_summaries": [
+    {
+      "source_file": "courses_sample.jsonl",
+      "document_type": "course_catalog",
+      "source_scope": "sample_demo",
+      "text": "course_code: DS101 | course_name: Nhap mon Khoa hoc du lieu | credits: 3 | department: Khoa Toan - Co - Tin hoc | program: Khoa hoc du lieu | semester: 2026-1"
+    },
+    {
+      "source_file": "courses_sample.jsonl",
+      "document_type": "course_catalog",
+      "source_scope": "sample_demo",
+      "text": "course_code: CS201 | course_name: Cau truc du lieu va giai thuat | credits: 4 | department: Khoa Toan - Co - Tin hoc | program: Khoa hoc may tinh va thong tin | semester: 2026-1"
+    },
+    {
+      "source_file": "courses_sample.jsonl",
+      "document_type": "course_catalog",
+      "source_scope": "sample_demo",
+      "text": "course_code: STAT210 | course_name: Xac suat thong ke | credits: 3 | department: Khoa Toan - Co - Tin hoc | program: Khoa hoc du lieu | semester: 2026-1"
+    },
+    {
+      "source_file": "courses_sample.jsonl",
+      "document_type": "course_catalog",
+      "source_scope": "sample_demo",
+      "text": "course_code: MATH301 | course_name: Toan roi rac | credits: 3 | department: Khoa Toan - Co - Tin hoc | program: Toan ung dung va Tin hoc | semester: 2026-2"
+    },
+    {
+      "source_file": "schedule_sample.jsonl",
+      "document_type": "exam_schedule",
+      "source_scope": "sample_demo",
+      "text": "exam_id: EX2026-001 | course_name: Nhap mon Khoa hoc du lieu | exam_date: 2026-06-10 | room: P.401 | program: Khoa hoc du lieu | note: Mang the sinh vien | sheet_name: exams"
+    },
+    {
+      "source_file": "schedule_sample.jsonl",
+      "document_type": "exam_schedule",
+      "source_scope": "sample_demo",
+      "text": "exam_id: EX2026-002 | course_name: Cau truc du lieu va giai thuat | exam_date: 2026-06-12 | room: P.305 | program: Khoa hoc may tinh va thong tin | note: Thi viet 90 phut | sheet_name: exams"
+    },
+    {
+      "source_file": "schedule_sample.jsonl",
+      "document_type": "exam_schedule",
+      "source_scope": "sample_demo",
+      "text": "exam_id: EX2026-003 | course_name: Xac suat thong ke | exam_date: 2026-06-15 | room: P.501 | program: Khoa hoc du lieu | note: Duoc dung may tinh ca nhan | sheet_name: exams"
+    },
+    {
+      "source_file": "schedule_sample.jsonl",
+      "document_type": "class_schedule",
+      "source_scope": "sample_demo",
+      "text": "class_id: CL2026-001 | course_name: Nhap mon Khoa hoc du lieu | weekday: Monday | start_time: 08:00 | end_time: 10:00 | room: P.203 | lecturer: TS. Nguyen Van A | sheet_name: classes"
+    },
+    {
+      "source_file": "schedule_sample.jsonl",
+      "document_type": "class_schedule",
+      "source_scope": "sample_demo",
+      "text": "class_id: CL2026-002 | course_name: Cau truc du lieu va giai thuat | weekday: Wednesday | start_time: 13:30 | end_time: 16:00 | room: P.305 | lecturer: ThS. Tran Thi B | sheet_name: classes"
+    },
+    {
+      "source_file": "schedule_sample.jsonl",
+      "document_type": "class_schedule",
+      "source_scope": "sample_demo",
+      "text": "class_id: CL2026-003 | course_name: Xac suat thong ke | weekday: Friday | start_time: 09:00 | end_time: 11:00 | room: P.501 | lecturer: PGS.TS. Le Van C | sheet_name: classes"
+    },
+    {
+      "source_file": "students_sample.jsonl",
+      "document_type": "student_record_mock",
+      "source_scope": "sample_demo",
+      "text": "student_id: SV2026001 | full_name: Nguyen Minh Anh | program: Khoa hoc du lieu | cohort: 2024 | email: nguyen.minh.anh@example.edu.vn | status: active"
+    },
+    {
+      "source_file": "students_sample.jsonl",
+      "document_type": "student_record_mock",
+      "source_scope": "sample_demo",
+      "text": "student_id: SV2026002 | full_name: Tran Bao Chau | program: Toan ung dung va Tin hoc | cohort: 2023 | email: tran.bao.chau@example.edu.vn | status: active"
+    },
+    {
+      "source_file": "students_sample.jsonl",
+      "document_type": "student_record_mock",
+      "source_scope": "sample_demo",
+      "text": "student_id: SV2026003 | full_name: Le Quang Huy | program: Khoa hoc may tinh va thong tin | cohort: 2022 | email: le.quang.huy@example.edu.vn | status: on_leave"
+    },
+    {
+      "source_file": "students_sample.jsonl",
+      "document_type": "student_record_mock",
+      "source_scope": "sample_demo",
+      "text": "student_id: SV2026004 | full_name: Pham Thu Ha | program: Khoa hoc du lieu | cohort: 2024 | email: pham.thu.ha@example.edu.vn | status: active"
+    },
+    {
+      "source_file": "students_sample.jsonl",
+      "document_type": "student_record_mock",
+      "source_scope": "sample_demo",
+      "text": "student_id: SV2026005 | full_name: Do Tuan Kiet | program: Toan hoc | cohort: 2021 | email: do.tuan.kiet@example.edu.vn | status: graduated"
+    }
+  ]
+}

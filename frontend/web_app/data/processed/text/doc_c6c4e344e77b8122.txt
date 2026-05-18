@@ -1,0 +1,29 @@
+[page 1]
+HƯỚNG DẪN NỘP HỌC PHÍ TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN
+Sinh viên lựa chọn kênh thanh toán phù hợp: kênh chuyển tiền tại tất cả các
+Ngân hàng trên toàn quốc. Có thể thanh toán tại quầy giao dịch, Internet banking,
+Mobile banking, Thanh toán tự động (UNC tự động), chi tiết như sau:
+1. CHUYỂN TIỀN TỪ NGÂN HÀNG BIDV ( Miễn phí):
+Vào app BIDV/Chuyển tiền/Nội bộ BIDV/Nhập số tài khoản:
+V4KHTN + Mã sinh viên (gõ liền, không dấu cách)
+2. CHUYỂN TIỀN TỪ NGÂN HÀNG KHÁC:
+=> Chọn: Chuyển tiền
+=> Chọn: Chuyển tiền nhanh 24/7
+=> Nhập số tài khoản:có định dạng V4KHTN + Mã sinh viên
+(Gõ liền, không dấu cách)
+=> Chọn ngân hàng: BIDV (Ngân hàng TMCP Đầu tư và phát triển Việt Nam)
+=> Sau khi bấm kiểm tra hệ thống sẽ ra kết quả có cấu trúc sau:
+HD+ Số tiền cần thanh toán_Họ tên của sinh viên
+(Ví dụ: HD 563220VND_CHU NHU QUYNH)
+[page 2]
+=> Kiểm tra đúng tên sinh viên, tại dòng “Số tiền”: gõ chính xác số tiền
+cần thanh toán, đối chiếu với số tiền hệ thống thông báo.
+=> Nhập mã số OTP
+=> Hoàn thành nộp học phí
+3. NỘP TIỀN MẶT TẠI CÁC QUẦY CỦA NGÂN HÀNG:
+- Sinh viên thông báo về việc nộp học phí cho Trường Đại học Khoa học Tự
+nhiên – Khối ĐH tại ngân hàng BIDV.
+- Cung cấp cho Giao dịch viên Số tài khoản định danh: ví dụ (V4KHTN+Mã
+sinh viên).
+Sinh viên cần nộp chính xác số tiền hệ thống đã
+thông báo, nếu không sẽ bị từ chối thanh toán.

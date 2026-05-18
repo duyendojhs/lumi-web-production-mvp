@@ -1,0 +1,1 @@
+{"run_id": "run_20260518_095151", "started_at": "2026-05-18T09:51:51.210248+00:00", "finished_at": "2026-05-18T09:52:00.981663+00:00", "duration_sec": 9.77, "raw_files": 146, "content_docs": 138, "processed_docs": 85, "chunks": 593, "issues_count": 171, "ocr_queue_count": 53, "overall_health": 78.8, "status": "success", "error": ""}

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-05-17T16:38:00.146196+00:00",
+  "base_url": "http://127.0.0.1:8010",
+  "rag_query_results": [
+    {
+      "query": "HUS có những thông tin tuyển sinh nào?",
+      "status_code": 200,
+      "mode": "extractive_fallback",
+      "best_score": 0.854864,
+      "citation_count": 1,
+      "top_title": "Trường Đại học Khoa học Tự nhiên | ĐHQGHN",
+      "top_source_url": "http://tuyensinh.hus.vnu.edu.vn/"
+    },
+    {
+      "query": "Tóm tắt một số quy định hoặc thông báo quan trọng.",
+      "status_code": 200,
+      "mode": "extractive_fallback",
+      "best_score": 0.850128,
+      "citation_count": 1,
+      "top_title": "Quy chế, quy định",
+      "top_source_url": "https://hus.vnu.edu.vn/hoc-sinh-sinh-vien/quy-che-quy-dinh"
+    },
+    {
+      "query": "Có những ngành/chương trình đào tạo nào được nhắc tới?",
+      "status_code": 200,
+      "mode": "extractive_fallback",
+      "best_score": 0.898289,
+      "citation_count": 1,
+      "top_title": "Bậc đại học",
+      "top_source_url": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/vat-ly"
+    },
+    {
+      "query": "Nguồn dữ liệu gồm những domain nào?",
+      "status_code": 200,
+      "mode": "extractive_fallback",
+      "best_score": 0.836295,
+      "citation_count": 1,
+      "top_title": "9.1.26-chi-tiet-du-thao_dang-cong-tuyen-sinh-1-edit.pdf",
+      "top_source_url": "https://tuyensinh.hus.vnu.edu.vn/DATA/TUYENSINH/IMAGES/2026/03/9.1.26-chi-tiet-du-thao_dang-cong-tuyen-sinh-1-edit.pdf"
+    }
+  ],
+  "assistant_chat_result": {
+    "status_code": 200,
+    "intent": "institutional_rag",
+    "source_count": 1,
+    "answer_length_chars": 807,
+    "first_source_url": "http://tuyensinh.hus.vnu.edu.vn/"
+  }
+}

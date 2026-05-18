@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-05-18T09:52:00.968262+00:00",
+  "suite_name": "lumi_local_data_contracts",
+  "results": [
+    {
+      "name": "file_type_allowed",
+      "description": "expect file_type in allowed enum",
+      "status": "pass",
+      "pass_rate": 100.0,
+      "affected_rows": 0,
+      "owner": "Data Steward",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    },
+    {
+      "name": "source_url_present",
+      "description": "expect source_url/source_domain for public content",
+      "status": "pass",
+      "pass_rate": 99.3,
+      "affected_rows": 1,
+      "owner": "Data Steward",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    },
+    {
+      "name": "checksum_present",
+      "description": "expect checksum_sha256 not null",
+      "status": "pass",
+      "pass_rate": 100.0,
+      "affected_rows": 0,
+      "owner": "Data Engineer",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    },
+    {
+      "name": "category_present",
+      "description": "expect category not null",
+      "status": "pass",
+      "pass_rate": 100.0,
+      "affected_rows": 0,
+      "owner": "Data Steward",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    },
+    {
+      "name": "processed_text_or_ocr_flag",
+      "description": "expect content text length > threshold or needs_ocr flagged",
+      "status": "pass",
+      "pass_rate": 98.6,
+      "affected_rows": 2,
+      "owner": "AI Engineer",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    },
+    {
+      "name": "no_duplicate_checksum",
+      "description": "expect no duplicate checksum",
+      "status": "pass",
+      "pass_rate": 100.0,
+      "affected_rows": 0,
+      "owner": "Data Engineer",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    },
+    {
+      "name": "manifest_schema_valid",
+      "description": "expect manifest/support files readable",
+      "status": "pass",
+      "pass_rate": 100.0,
+      "affected_rows": 0,
+      "owner": "Data Steward",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    },
+    {
+      "name": "pdf_extraction_or_flag",
+      "description": "expect PDF extraction available or needs_ocr flagged",
+      "status": "pass",
+      "pass_rate": 100.0,
+      "affected_rows": 0,
+      "owner": "AI Engineer",
+      "last_validated": "2026-05-18T09:52:00.968262+00:00"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+PHIẾU CUNG CẤP THÔNG TIN 
+VỀ PHÒNG THÍ NGHIỆM, TRUNG TÂM NGHIÊN CỨU 
+ 
+1. Tên phòng thí nghiệm/ Trung tâm nghiên cứu: PTN bộ môn Sinh lý học và Sinh học người 
+2. Loại hình: PTN chuyên đề 
+3. Ngành/ Chuyên ngành đào tạo (Theo danh mục ngành/chuyên ngành đào tạo của ĐHQGHN): 
+Ngành: Công nghệ sinh học 
+Chuyên ngành: Lý sinh học, Nhân chủng học, Sinh lý học người và động vật 
+4. Trưởng phòng thí nghiệm / Giám đốc trung tâm: TS. Tô Thanh Thúy 
+5. Danh sách cán bộ cơ hữu (họ tên, học hàm, học vị): PGS.TS. Trịnh Hồng Thái; PGS.TS. Nguyễn 
+Hữu Nhân; TS. Tô Thanh Thúy; TS. Đỗ Minh Hà; TS. Vũ Thị Thu; ThS. Lưu Thị Thu Phương; 
+ThS. Phạm Trọng Khá; ThS. Nguyễn Thị Tú Linh; ThS. Phạm Thị Bích; ThS. Lê Lan Phương. 
+6. Danh sách cán b ộ nghiên cứu chủ chốt (họ tên, h ọc hàm, h ọc vị): PGS.TS. Tr ịnh Hồng Thái; 
+PGS.TS. Nguyễn Hữu Nhân; TS. Tô Thanh Thúy; TS. Đỗ Minh Hà; TS. Vũ Thị Thu; ThS. Lưu Thị 
+Thu Phương; ThS. Phạm Trọng Khá; ThS. Nguyễn Thị Tú Linh; ThS. Phạm Thị Bích; ThS. Lê Lan 
+Phương. 
+7. Mức độ đầu tư: PTN đã được đầu tư mới và đồng bộ 
+8. Các thiết bị nghiên cứu chính: 
+STT Tên thiết bị Số lượng 
+1. Máy ly tâm lạnh 5417R, Eppendorf, Germany 02 
+2. Buồng vô trùng AC2-4E1, hãng ESCO (Biological safety cabinet) 01 
+3. Tủ lạnh chứa mẫu Arctico (-45oC) 01 
+4. Nồi hấp khử trùng ALP 01 
+5. Máy nhân gen PCR AB system 9700 01 
+6. Máy nhân gen gradient PTC-0200 01 
+7. Máy lắc khay miễn dịch IKA MTS 214 01 
+8. Tủ cấy ESCO AC2-4E1 (BSC class II) 01 
+9. Cân phân tích Sartorious CPA224S 01 
+10. Bình chứa nito lỏng IC 35R 01 
+11. 
+Hệ thống thu thập và xử lý tín hiệu AD Instrument: PL3508/PowerLab 
+8/35, các module: FE136/Animal Bio Amp, FE221AD (cùng 2 đầu đo 
+MLTF500/ST, MLT844); FE141AD) 
+01 
+9. Hướng nghiên cứu chính: 
+PTN có 2 hướng nghiên cứu chính: 
+* Nghiên cứu về Sinh lý học người và động vật: 
+- Sinh lý và bệnh lý về xương, sàng lọc hoạt chất chống loãng xương trên mô hình cá medaka 
+
+- Tạo mô hình và nghiên cứu bệnh người (bệnh xương, bệnh tim mạch…) trên cá medaka và cá 
+vằn zebrafish 
+- Định hướng cho nghiên cứu về sinh lý tim mạch và sinh lý hành vi 
+* Nghiên cứu về Sinh học người: 
+- Sinh học hình thái người: nghiên cứu các đặc trưng hình thái, thể lực, dinh dưỡng và bệnh theo 
+các nhóm người, các tộc người cũng như nguồn gốc và mối quan hệ họ hang của các tộc người ở 
+Việt Nam. 
+- Sinh học phân tử người: Nghiên cứu ở mức phân tử các đặc trưng của các nhóm người, các tộc 
+người và các bệnh ở người cũng như ứng dụng trong nhận dạng cá thể người, xét nghiệm bệnh và 
+phân tích ADN người cổ. 
+- Định hướng cho nghiên cứu về sinh thái người và sinh y học gốc tự do 
+- 5 từ khóa về hướng nghiên cứu chính: Sinh lý học động vật; Mô hình bệnh trên cá medaka; Hình 
+thái tộc người; ADN bệnh và người cố; Sinh y học gốc tự do. 
+10. Sản phẩm đã có, có thể chuyển giao: 
+11. Dự kiến sản phẩm KHCN trong giai đoạn 2016-2020: 
+- Mô tả vắn tắt về sản phẩm: 
+√ Mô hình cá medaka cho bệnh loãng xương 
+√ Qui trình sàng lọc chất có hoạt tính chống loãng xương trên cá medaka 
+√ Chất có hoạt tính chống loãng xương 
+√ Quy trình và bộ sinh phẩm hỗ trợ chẩn đoán bệnh ung thư 
+√ Quy trình và bộ sinh phẩm hỗ trợ chẩn đoán bệnh Pearson 
+√ Quy trình và bộ sinh phẩm đánh giá tình trạng ứng kích oxy hóa ở một số bệnh chuyển hóa 
+√ Quy trình sàng lọc chất tổng hợp hóa học và hợp chất tự nhiên có tiềm năng chống oxy hóa 
+- 3 từ khóa về sản phẩm: Cá medaka và mô hình bệnh; Kit hỗ trợ chẩn đoán bệnh; Chất có hoạt 
+tính; Ấn phẩm khoa học, sáng chế.

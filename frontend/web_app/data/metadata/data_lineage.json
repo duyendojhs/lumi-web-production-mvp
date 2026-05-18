@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-18T09:52:00.717801+00:00",
+  "dataset_name": "Lumi Data Layer Local Dataset",
+  "stages": [
+    {
+      "name": "Raw Layer",
+      "input_path": "D:\\DM\\lumi\\data\\raw",
+      "output_path": "D:\\DM\\lumi\\data\\raw",
+      "script": "external collection / manual raw dataset",
+      "records": 146,
+      "status": "available"
+    },
+    {
+      "name": "Data Ingestion",
+      "input_path": "D:\\DM\\lumi\\data\\raw",
+      "output_path": "D:\\DM\\lumi\\data\\metadata\\data_catalog.json",
+      "script": "data/scripts/ingest_raw_data.py",
+      "records": 146,
+      "status": "generated"
+    },
+    {
+      "name": "Processed Layer",
+      "input_path": "D:\\DM\\lumi\\data\\metadata\\data_catalog.json",
+      "output_path": "D:\\DM\\lumi\\data\\processed",
+      "script": "data/scripts/process_documents.py",
+      "records": 91,
+      "status": "generated"
+    },
+    {
+      "name": "Feature Layer",
+      "input_path": "D:\\DM\\lumi\\data\\processed",
+      "output_path": "D:\\DM\\lumi\\data\\features",
+      "script": "data/scripts/build_features.py",
+      "records": 655,
+      "status": "generated"
+    },
+    {
+      "name": "Governance",
+      "input_path": "D:\\DM\\lumi\\data\\metadata",
+      "output_path": "D:\\DM\\lumi\\data\\metadata",
+      "script": "data/scripts/build_features.py",
+      "records": 3,
+      "status": "generated"
+    }
+  ]
+}

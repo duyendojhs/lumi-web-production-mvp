@@ -1,0 +1,53 @@
+PHIẾU CUNG CẤP THÔNG TIN 
+VỀ PHÒNG THÍ NGHIỆM, TRUNG TÂM NGHIÊN CỨU 
+ 
+1. Tên phòng thí nghiệm/ Trung tâm nghiên cứu: Phòng Thí nghiệm Khoa học Dữ liệu 
+2. Loại hình: PTN chuyên đề 
+3. Ngành/ Chuyên ngành đào tạo: Ngành đào tạo đại học: Toán học, Toán Cơ, Toán – Tin ứng dụng, 
+Máy tính và KHTT 
+- Chuyên ngành đào tạo sau đại học: Toán giải tích, Đại số và lí thuyết số, Hình học và tôpô, Lí thuyết 
+xác suất và th ống kê toán h ọc, Cơ s ở toán học cho tin h ọc, Toán ứng dụng, Phương trình vi phân và 
+tích phân. 
+4. Trưởng phòng thí nghiệm/Giám đốc trung tâm: TS. Lê Hồng Phương 
+5. Danh sách cán bộ cơ hữu: 
+- Nguyễn Thị Hải Yến, Thạc sĩ 
+- Nguyễn Dương Kiên, Cử nhân 
+- Nguyễn Việt Hùng, Thạc sĩ 
+6. Danh sách cán bộ nghiên cứu chủ chốt (họ tên, học hàm, học vị): 
+Cán bộ nghiên cứu chủ chốt là các cán bộ kiêm nhiệm từ các bộ môn Toán học tính toán và Toán ứng 
+dụng, Xác suất – thống kê và Tin học. 
+ 
+Phạm Kỳ Anh GS, TSKH Nguyễn Thị Minh Huyền TS 
+Phạm Trọng Quát PGS, TS Lê Trọng Vĩnh PGS, TS 
+Nguyễn Hữu Điển PGS, TS Lê Hồng Phương TS 
+Nguyễn Trung Hiếu TS Đỗ Trung Tuấn PGS, TS 
+Hoàng Nam Dũng TS Vũ Tiến Dũng TS 
+Nguyễn Ngọc Phan TS Nguyễn Phương Giang TS 
+Đặng Hùng Thắng GS, TSKH Đỗ Thanh Hà TS 
+Trịnh Quốc Anh TS Nguyễn Thị Bích Thủy TS 
+Phan Viết Thư PGS, TS Nguyễn Hải Vinh TS 
+Tạ Công Sơn TS Phạm Đình Tùng TS 
+Hoàng Thị Phương Thảo TS Lê Vĩ TS 
+Nguyễn Thịnh TS 
+ 
+7. Mức độ đầu tư (PTN đã được đầu tư đồng bộ/ PTN hiện có và đang trong kế hoạch cần được đầu tư 
+bổ sung/ PTN trong kế hoạch thực hiện): PTN đã được đầu tư đồng bộ 
+8. Các thiết bị nghiên cứu chính: Máy tính nối mạng 
+9. Hướng nghiên cứu chính: 
+- Mô tả vắn tắt (không quá 500 t ừ) về các hướng nghiên cứu chính: Các hướng nghiên cứu chính xoay 
+quanh vấn đề mô hình hoá, thu thập, lưu trữ dữ liệu và phát triển các phương pháp phân tích dữ liệu và 
+dữ liệu lớn cho tìm ki ếm, phát hi ện tri th ức, mô hình ẩn trong d ữ liệu, xây d ựng mô hình mô ph ỏng. 
+
+Các vấn đề nghiên cứu cụ thể bao gồm các phương pháp mô hình ho á và mô ph ỏng, các phương pháp 
+giải số, các phương pháp t ối ưu hoá, các phương pháp phân tích d ữ liệu bằng thống kê, các phương 
+pháp học máy, các phương pháp lưu tr ữ, khai thác d ữ liệu lớn, an toàn d ữ liệu. Lĩnh vực ứng dụng cụ 
+thể sử dụng các mô hình, phư ơng pháp toán h ọc trong phân tích d ữ liệu được ưu tiên bao gồm xử lí 
+ngôn ngữ tự nhiên, xử lí ảnh và toán tài chính. 
+- 5 từ khóa về hướng nghiên cứu chính: dữ liệu, phân tích thống kê, toán học tính toán, an toàn dữ liệu, 
+tính toán thông minh 
+10. Sản phẩm đã có, có thể chuyển giao: 
+11. Dự kiến sản phẩm KHCN trong giai đoạn 2016-2020: 
+- Mô tả vắn tắt (không quá 500 từ) về sản phẩm: Đào tạo: 20 học viên SĐH/ năm; sản phẩm khoa học: 
+05 bài báo/năm; 03 báo cáo h ội nghị/năm; sản phẩm công nghệ phần mềm: bộ phần mềm xử lí ngôn 
+ngữ tiếng Việt; các công cụ và tài nguyên liên quan được cập nhật, phát triển hàng năm. 
+- 3 từ khóa về sản phẩm: Ấn phẩm khoa học; phần mềm; Kho dữ liệu.

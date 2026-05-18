@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-05-18T09:52:00.968262+00:00",
+  "issues": [
+    {
+      "issue_type": "pdf_needs_ocr",
+      "severity": "critical",
+      "affected_records": 53,
+      "root_cause": "PDF has no usable text layer or extracted text is too short.",
+      "downstream_impact": "AI/RAG coverage, chunk quality, and search recall.",
+      "suggested_fix": "Run OCR queue for flagged PDFs.",
+      "command": "python data\\scripts\\ocr_pdf_queue.py --limit 10",
+      "action_label": "Open OCR Queue"
+    },
+    {
+      "issue_type": "missing_cells",
+      "severity": "warning",
+      "affected_records": 35,
+      "root_cause": "Manifest/table fields are blank in raw support files.",
+      "downstream_impact": "Metadata completeness and catalog filters.",
+      "suggested_fix": "Review manifest rows and fill key source/category fields.",
+      "command": "Open data/reports/data_quality_report.md",
+      "action_label": "Export Issue Report"
+    },
+    {
+      "issue_type": "possible_mojibake",
+      "severity": "warning",
+      "affected_records": 3,
+      "root_cause": "Some public pages appear decoded with the wrong character set.",
+      "downstream_impact": "Vietnamese readability and answer quality.",
+      "suggested_fix": "Re-fetch or re-decode affected HTML/TXT pages.",
+      "command": "python data\\scripts\\run_data_layer.py",
+      "action_label": "Run Validation"
+    },
+    {
+      "issue_type": "html_short_body",
+      "severity": "warning",
+      "affected_records": 2,
+      "root_cause": "HTML page has little main body after removing nav/script/footer.",
+      "downstream_impact": "Content completeness and chunk usefulness.",
+      "suggested_fix": "Review whether these pages are true content or navigation pages.",
+      "command": "Inspect data/reports/ingestion_report.json",
+      "action_label": "Mark Reviewed"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+services:
+  web_app:
+    build:
+      context: .
+      dockerfile: frontend/web_app/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.5-flash}
+      APP_DEMO_USER_EMAIL: ${APP_DEMO_USER_EMAIL:-demo@example.com}
+      APP_DEMO_USER_PASSWORD: ${APP_DEMO_USER_PASSWORD:-demo123456}

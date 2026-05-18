@@ -1,0 +1,5 @@
+{"student_id": "SV2026001", "full_name": "Nguyen Minh Anh", "program": "Khoa hoc du lieu", "cohort": "2024", "email": "nguyen.minh.anh@example.edu.vn", "status": "active"}
+{"student_id": "SV2026002", "full_name": "Tran Bao Chau", "program": "Toan ung dung va Tin hoc", "cohort": "2023", "email": "tran.bao.chau@example.edu.vn", "status": "active"}
+{"student_id": "SV2026003", "full_name": "Le Quang Huy", "program": "Khoa hoc may tinh va thong tin", "cohort": "2022", "email": "le.quang.huy@example.edu.vn", "status": "on_leave"}
+{"student_id": "SV2026004", "full_name": "Pham Thu Ha", "program": "Khoa hoc du lieu", "cohort": "2024", "email": "pham.thu.ha@example.edu.vn", "status": "active"}
+{"student_id": "SV2026005", "full_name": "Do Tuan Kiet", "program": "Toan hoc", "cohort": "2021", "email": "do.tuan.kiet@example.edu.vn", "status": "graduated"}

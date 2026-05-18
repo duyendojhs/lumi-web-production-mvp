@@ -1,0 +1,5 @@
+{
+  "generated_at": "2026-05-18T09:58:27.671890+00:00",
+  "status": "skipped",
+  "note": "Embeddings are optional. Run build_rag_index.py --with-embeddings if a local sentence-transformers model is available."
+}

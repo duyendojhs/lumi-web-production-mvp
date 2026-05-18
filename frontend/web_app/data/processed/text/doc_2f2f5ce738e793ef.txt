@@ -1,0 +1,26 @@
+Bang du lieu: pdf_links_discovered
+Nguon: 
+So dong: 166
+So cot: 3
+Cot: source_page, url, title
+Mau du lieu:
+{"url": "https://tuyensinh.hus.vnu.edu.vn/DATA/TUYENSINH/IMAGES/2025/06/huong-dan-thi-sinh-dang-ky-xet-tuyen-2025-14.06.2025-final.pdf", "title": "huong-dan-thi-sinh-dang-ky-xet-tuyen-2025-14.06.2025-final.pdf", "source_page": ""}
+{"url": "https://tuyensinh.hus.vnu.edu.vn/DATA/TUYENSINH/IMAGES/2025/06/thong-bao-gia-han-dang-ky-xet-tuyen-truc-tuyen-vao-dhcq-nam-2025.pdf", "title": "thong-bao-gia-han-dang-ky-xet-tuyen-truc-tuyen-vao-dhcq-nam-2025.pdf", "source_page": ""}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/223.-ts-vo-tuyen-va-dien-tu-qd-4945.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/sau-dai-hoc/vat-ly-va-cong-nghe"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2020/06/17.ptn-bm-vat-ly-vo-tuyen-va-dien-tu.pdf", "title": "PTN BM Vật lý Vô tuyến và Điện tử", "source_page": "https://hus.vnu.edu.vn/khoa-hoc-cong-nghe/phong-thi-nghiem"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/813.-ths-mtptbv-nc-qd-3579.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/sau-dai-hoc/khoa-hoc-trai-dat-va-tai-nguyen-moi-truong"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/814.-ths-mtptbv-ud-qd-3580.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/sau-dai-hoc/khoa-hoc-trai-dat-va-tai-nguyen-moi-truong"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/821.-ts-ky-thuat-moi-truong-qd-3583.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/sau-dai-hoc/khoa-hoc-trai-dat-va-tai-nguyen-moi-truong"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/822.-ts-mtdn-qd-3582.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/sau-dai-hoc/khoa-hoc-trai-dat-va-tai-nguyen-moi-truong"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/823.-ts-khoa-hoc-moi-truong-qd-3581.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/sau-dai-hoc/khoa-hoc-trai-dat-va-tai-nguyen-moi-truong"}
+{"url": "https://tuyensinh.hus.vnu.edu.vn/DATA/TUYENSINH/IMAGES/2025/08/1.tb_xt-vao-ctdt-dac-biet_2025_len-website.pdf", "title": "1.tb_xt-vao-ctdt-dac-biet_2025_len-website.pdf", "source_page": ""}
+{"url": "https://tuyensinh.hus.vnu.edu.vn/DATA/TUYENSINH/IMAGES/2026/03/9.1.26-chi-tiet-du-thao_dang-cong-tuyen-sinh-1-edit.pdf", "title": "9.1.26-chi-tiet-du-thao_dang-cong-tuyen-sinh-1-edit.pdf", "source_page": ""}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/112.-ths-phuong-phap-toan-so-cap-qd-4930.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/113.-ths-toan-ung-dung-qd-4931.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/114.-ths-khoa-hoc-du-lieu-qd-4932.pdf", "title": "114.-ths-khoa-hoc-du-lieu-qd-4932.pdf", "source_page": ""}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/115.-ths-co-hoc-qd-4933.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/116.-ths-co-so-toan-hoc-cho-tin-hoc-qd-4934.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/121.-ts-toan-giai-tich-qd-4935.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/122.-ts-phuong-trinh-vi-phan-va-tich-phan-qd-4936.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/123.-ts-dai-so-va-ly-thuyet-so-qd-4937.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}
+{"url": "https://hus.vnu.edu.vn/DATA/IMAGES/2024/06/124.-ts-toan-ung-dung-qd-4938.pdf", "title": "📄 Xem nội dung PDF", "source_page": "https://hus.vnu.edu.vn/dao-tao/bac-dai-hoc/toan-co-tin-hoc"}

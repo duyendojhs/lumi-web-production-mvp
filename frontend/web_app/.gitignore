@@ -1,0 +1,15 @@
+.env
+.env.local
+.env.*
+.env.*.local
+!.env.example
+node_modules/
+.next/
+.vercel/
+.turbo/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.log
+.lumi-storage/

@@ -1,0 +1,27 @@
+PHIẾU CUNG CẤP THÔNG TIN 
+VỀ PHÒNG THÍ NGHIỆM, TRUNG TÂM NGHIÊN CỨU 
+1. Tên phòng thí nghiệm/ Trung tâm nghiên cứu: PTN Tính toán trong Khoa học Vật liệu 
+2. Loại hình: PTN chuyên đề 
+3. Ngành/ Chuyên ngành đào tạo: Khoa học Vật liệu 
+4. Trưởng phòng thí nghiệm / Giám đốc trung tâm: GS.TS. Bạch Thành Công 
+5. Danh sách cán bộ cơ hữu: GS.TS. Bạch Thành Công, TS. Bạch Hương Giang, ThS. Nguyễn 
+Thuỳ Trang, TS. Nguyễn Duy Huy, ThS. Nguyễn Từ Niệm, ThS. Trần Văn Nam, ThS. Nguyễn Thị 
+Kim Oanh, CN. Phạm Bá Duy 
+6. Danh sách cán bộ nghiên cứu chủ chốt: GS.TS. Bạch Thành Công, TS. Bạch Hương Giang, ThS. 
+Nguyễn Thuỳ Trang, TS. Nguyễn Duy Huy 
+7. Mức độ đầu tư : PTN hiện có và trong kế hoạch cần được đầu tư bổ sung 
+8. Các thiết bị nghiên cứu chính: 
+- 30 máy tính Core I3 + máy chủ 
+9. Hướng nghiên cứu chính: 
+- Tính toán lượng tử các tính chất, thiết kế vật liệu điện tử ứng dụng trong chuyển đổi năng lượng. 
+- Phát triển Lý thuyết các hệ điện tử tương quan mạnh, các hệ từ tính thấp chiều sử dụng phương 
+pháp hàm Green, trường trung bình động, tích phân phiếm hàm. 
+- 5 từ khóa về hướng nghiên cứu chính: Tính toán lượng tử; Thiết kế vật liệu điện tử; Lý thuyết các 
+hệ điện tử tương quan mạnh; Mô phỏng các hệ từ tính thấp chiều; Phương pháp hàm Green. 
+10. Sản phẩm đã có, có thể chuyển giao: 
+- Phần mềm, quy trình tính toán mô phỏng một số tính chất của vật liệu 
+11. Dự kiến sản phẩm KHCN trong giai đoạn 2016-2020: 
+- 15-20 bài báo SCI và bài báo ở các tạp chí chuyên ngành 
+- Sách chuyên khảo 
+- Đào tạo nghiên cứu sinh, cao học và đại học chuyên ngành. 
+- 3 từ khóa về sản phẩm: Ấn phẩm khoa học; Phần mềm và quy trình mô phỏng vật liệu.

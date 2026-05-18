@@ -1,0 +1,443 @@
+{
+  "created_at": "2026-05-18T09:52:00.014158+00:00",
+  "total_catalog_records": 146,
+  "processed_documents": 91,
+  "status_counts": {
+    "skipped": 2,
+    "ok": 84,
+    "warning": 60
+  },
+  "file_type_counts": {
+    "md": 1,
+    "csv": 1,
+    "archive": 1,
+    "xlsx": 1,
+    "html": 30,
+    "json": 4,
+    "pdf": 82,
+    "txt": 26
+  },
+  "pdf_needs_ocr_count": 53,
+  "missing_summary": {
+    "tables": 6,
+    "columns_with_missing": 3,
+    "total_missing_cells": 35
+  },
+  "outlier_summary": {
+    "tables": 6,
+    "columns_with_outliers": 0,
+    "total_outliers": 0
+  },
+  "duplicate_table_rows": 0,
+  "issue_counts": {
+    "md_not_processed_by_default": 1,
+    "md_skipped": 1,
+    "archive_not_processed_by_default": 1,
+    "archive_skipped": 1,
+    "large_file": 1,
+    "html_short_body": 2,
+    "possible_mojibake": 3,
+    "empty_processed_text": 53,
+    "pdf_needs_ocr": 53,
+    "pdf_sample_needs_ocr": 54,
+    "pdf_text_truncated": 1
+  },
+  "table_profiles": [
+    {
+      "document_id": "doc_afe9eda168b2fc72",
+      "relative_path": "csv/data_raw_manifest.csv",
+      "file_type": "csv",
+      "profile": {
+        "row_count": 137,
+        "column_count": 12,
+        "columns": [
+          {
+            "name": "source_url",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_name",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_size_bytes",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "number"
+          },
+          {
+            "name": "language",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "source_domain",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "description",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_type",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "category",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "relative_path",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "is_public",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "access_note",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "id",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          }
+        ],
+        "duplicate_rows": 0,
+        "outliers": {}
+      }
+    },
+    {
+      "document_id": "doc_560578e1394f562e",
+      "relative_path": "excel/data_raw_manifest.xlsx",
+      "file_type": "xlsx",
+      "profile": {
+        "row_count": 137,
+        "column_count": 12,
+        "columns": [
+          {
+            "name": "source_url",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_name",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_size_bytes",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "number"
+          },
+          {
+            "name": "language",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "source_domain",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "description",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_type",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "category",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "relative_path",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "is_public",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "number"
+          },
+          {
+            "name": "access_note",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "id",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          }
+        ],
+        "duplicate_rows": 0,
+        "outliers": {}
+      }
+    },
+    {
+      "document_id": "doc_3fc4cb9fe6ada57b",
+      "relative_path": "json/data_raw_manifest.json",
+      "file_type": "json",
+      "profile": {
+        "row_count": 137,
+        "column_count": 12,
+        "columns": [
+          {
+            "name": "source_url",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_name",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_size_bytes",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "number"
+          },
+          {
+            "name": "language",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "source_domain",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "description",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_type",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "category",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "relative_path",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "is_public",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "access_note",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "id",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          }
+        ],
+        "duplicate_rows": 0,
+        "outliers": {}
+      }
+    },
+    {
+      "document_id": "doc_6e609499b9bff67d",
+      "relative_path": "source_lists/collected_sources.json",
+      "file_type": "json",
+      "profile": {
+        "row_count": 137,
+        "column_count": 11,
+        "columns": [
+          {
+            "name": "source_url",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_name",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_size_bytes",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "number"
+          },
+          {
+            "name": "language",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "source_domain",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "description",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "file_type",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "category",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "relative_path",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "is_public",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "access_note",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          }
+        ],
+        "duplicate_rows": 0,
+        "outliers": {}
+      }
+    },
+    {
+      "document_id": "doc_b494b867eaefa98a",
+      "relative_path": "source_lists/collection_skipped.json",
+      "file_type": "json",
+      "profile": {
+        "row_count": 10,
+        "column_count": 3,
+        "columns": [
+          {
+            "name": "path",
+            "missing_count": 2,
+            "missing_percent": 20.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "url",
+            "missing_count": 8,
+            "missing_percent": 80.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "reason",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          }
+        ],
+        "duplicate_rows": 0,
+        "outliers": {}
+      }
+    },
+    {
+      "document_id": "doc_2f2f5ce738e793ef",
+      "relative_path": "source_lists/pdf_links_discovered.json",
+      "file_type": "json",
+      "profile": {
+        "row_count": 166,
+        "column_count": 3,
+        "columns": [
+          {
+            "name": "source_page",
+            "missing_count": 25,
+            "missing_percent": 15.06,
+            "inferred_type": "string"
+          },
+          {
+            "name": "url",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          },
+          {
+            "name": "title",
+            "missing_count": 0,
+            "missing_percent": 0.0,
+            "inferred_type": "string"
+          }
+        ],
+        "duplicate_rows": 0,
+        "outliers": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-05-18T09:52:00.715243+00:00",
+  "total_raw_files": 146,
+  "total_documents": 146,
+  "content_documents": 138,
+  "manifest_files": 6,
+  "system_files": 1,
+  "archive_files": 1,
+  "processable_documents": 144,
+  "processed_text_documents": 91,
+  "content_processed_text_documents": 85,
+  "total_chunks": 655,
+  "content_chunks": 593,
+  "file_type_distribution": {
+    "md": 1,
+    "csv": 1,
+    "archive": 1,
+    "xlsx": 1,
+    "html": 30,
+    "json": 4,
+    "pdf": 82,
+    "txt": 26
+  },
+  "content_file_type_distribution": {
+    "html": 30,
+    "pdf": 82,
+    "txt": 26
+  },
+  "category_distribution": {
+    "khac": 9,
+    "dao_tao": 63,
+    "nghien_cuu": 32,
+    "thong_tin_chung": 19,
+    "sinh_vien": 8,
+    "quy_che": 2,
+    "tuyen_sinh": 13
+  },
+  "content_category_distribution": {
+    "dao_tao": 63,
+    "nghien_cuu": 32,
+    "thong_tin_chung": 19,
+    "sinh_vien": 8,
+    "quy_che": 2,
+    "tuyen_sinh": 13,
+    "khac": 1
+  },
+  "source_domain_distribution": {
+    "hus.vnu.edu.vn": 126,
+    "local": 9,
+    "tuyensinh.hus.vnu.edu.vn": 9,
+    "local_repo_docs": 2
+  },
+  "text_length_distribution": {
+    "min": 27,
+    "max": 41955,
+    "avg": 6017.71,
+    "median": 2666,
+    "buckets": {
+      "10k-50k": 17,
+      "500-2k": 36,
+      "2k-10k": 36,
+      "0-500": 2
+    }
+  },
+  "missing_summary": {
+    "tables": 6,
+    "columns_with_missing": 3,
+    "total_missing_cells": 35
+  },
+  "outlier_summary": {
+    "tables": 6,
+    "columns_with_outliers": 0,
+    "total_outliers": 0
+  },
+  "pdf_needs_ocr_count": 53,
+  "issue_counts": {
+    "large_file": 1,
+    "html_short_body": 2,
+    "possible_mojibake": 3,
+    "pdf_sample_needs_ocr": 54,
+    "pdf_text_truncated": 1,
+    "md_not_processed_by_default": 1,
+    "md_skipped": 1,
+    "archive_not_processed_by_default": 1,
+    "archive_skipped": 1,
+    "empty_processed_text": 53,
+    "pdf_needs_ocr": 53
+  },
+  "quality_score": 66.3,
+  "raw_quality_score": 67.6,
+  "content_readiness_score": 71.4,
+  "processing_readiness_score": 85.1,
+  "ai_readiness_score": 62.4,
+  "governance_score": 94.0,
+  "raw_integrity_score": 98.5,
+  "overall_data_health": 78.8,
+  "quality_breakdown": {
+    "ocr_penalty": 14.2,
+    "missing_values_penalty": 3.5,
+    "encoding_penalty": 4.5,
+    "short_body_penalty": 3.0,
+    "archive_system_file_penalty": 0.3,
+    "duplicate_penalty": 0,
+    "processing_coverage_penalty": 6.9,
+    "raw_quality_score": 67.6,
+    "content_readiness_score": 71.4,
+    "processing_readiness_score": 85.1,
+    "content_processing_coverage_percent": 61.6,
+    "recommended_fixes": [
+      "Run OCR for 53 PDFs flagged with low text extraction.",
+      "Exclude archive/system files from content KPIs and public demo samples.",
+      "Fix 3 possible mojibake/encoding issue records.",
+      "Review 2 short HTML pages.",
+      "Clean manifest/table nulls (35 missing cells)."
+    ]
+  },
+  "status_counts": {
+    "skipped": 2,
+    "ok": 84,
+    "warning": 60
+  }
+}

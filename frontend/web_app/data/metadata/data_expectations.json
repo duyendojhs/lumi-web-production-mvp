@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-05-18T09:52:00.968262+00:00",
+  "suite_name": "lumi_local_data_contracts",
+  "expectations": [
+    {
+      "name": "file_type_allowed",
+      "description": "expect file_type in allowed enum",
+      "owner": "Data Steward",
+      "severity": "info"
+    },
+    {
+      "name": "source_url_present",
+      "description": "expect source_url/source_domain for public content",
+      "owner": "Data Steward",
+      "severity": "info"
+    },
+    {
+      "name": "checksum_present",
+      "description": "expect checksum_sha256 not null",
+      "owner": "Data Engineer",
+      "severity": "info"
+    },
+    {
+      "name": "category_present",
+      "description": "expect category not null",
+      "owner": "Data Steward",
+      "severity": "info"
+    },
+    {
+      "name": "processed_text_or_ocr_flag",
+      "description": "expect content text length > threshold or needs_ocr flagged",
+      "owner": "AI Engineer",
+      "severity": "info"
+    },
+    {
+      "name": "no_duplicate_checksum",
+      "description": "expect no duplicate checksum",
+      "owner": "Data Engineer",
+      "severity": "info"
+    },
+    {
+      "name": "manifest_schema_valid",
+      "description": "expect manifest/support files readable",
+      "owner": "Data Steward",
+      "severity": "info"
+    },
+    {
+      "name": "pdf_extraction_or_flag",
+      "description": "expect PDF extraction available or needs_ocr flagged",
+      "owner": "AI Engineer",
+      "severity": "info"
+    }
+  ]
+}
