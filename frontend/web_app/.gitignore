@@ -13,3 +13,5 @@ coverage/
 *.tsbuildinfo
 *.log
 .lumi-storage/
+
+.vercel
