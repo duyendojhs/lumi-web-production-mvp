@@ -25,7 +25,7 @@ export async function getCurrentUser(): Promise<CurrentUser | null> {
   const { data, error } = await supabase.auth.getUser();
   if (error || !data.user) return null;
 
-  const profile = await ensureProfile(data.user);
+  const profile = await ensureProfile(data.user).catch(() => profileFromAuthUser(data.user));
   return {
     id: data.user.id,
     profileId: profile.id,
@@ -63,13 +63,7 @@ export function isSupabaseAuthConfigured() {
 
 async function ensureProfile(user: User): Promise<ProfileRow> {
   if (!process.env.DATABASE_URL) {
-    return {
-      id: user.id,
-      auth_user_id: user.id,
-      email: user.email ?? null,
-      display_name: user.user_metadata?.name ?? null,
-      role: "user",
-    };
+    return profileFromAuthUser(user);
   }
 
   const rows = await queryDb<ProfileRow>(
@@ -87,11 +81,17 @@ async function ensureProfile(user: User): Promise<ProfileRow> {
     [user.id, user.email ?? null, user.user_metadata?.name ?? null, bootstrapRole(user.email)],
   );
   return rows[0] ?? {
+    ...profileFromAuthUser(user),
+  };
+}
+
+function profileFromAuthUser(user: User): ProfileRow {
+  return {
     id: user.id,
     auth_user_id: user.id,
     email: user.email ?? null,
     display_name: user.user_metadata?.name ?? null,
-    role: "user",
+    role: bootstrapRole(user.email),
   };
 }
 
